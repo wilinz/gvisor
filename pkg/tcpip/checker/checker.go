@@ -23,11 +23,11 @@ import (
 	"time"
 
 	"github.com/google/go-cmp/cmp"
-	"gvisor.dev/gvisor/pkg/buffer"
-	"gvisor.dev/gvisor/pkg/tcpip"
-	"gvisor.dev/gvisor/pkg/tcpip/checksum"
-	"gvisor.dev/gvisor/pkg/tcpip/header"
-	"gvisor.dev/gvisor/pkg/tcpip/seqnum"
+	"github.com/wilinz/gvisor/pkg/buffer"
+	"github.com/wilinz/gvisor/pkg/tcpip"
+	"github.com/wilinz/gvisor/pkg/tcpip/checksum"
+	"github.com/wilinz/gvisor/pkg/tcpip/header"
+	"github.com/wilinz/gvisor/pkg/tcpip/seqnum"
 )
 
 // NetworkChecker is a function to check a property of a network packet.

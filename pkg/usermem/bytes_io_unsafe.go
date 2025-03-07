@@ -17,9 +17,9 @@ package usermem
 import (
 	"unsafe"
 
-	"gvisor.dev/gvisor/pkg/atomicbitops"
-	"gvisor.dev/gvisor/pkg/context"
-	"gvisor.dev/gvisor/pkg/hostarch"
+	"github.com/wilinz/gvisor/pkg/atomicbitops"
+	"github.com/wilinz/gvisor/pkg/context"
+	"github.com/wilinz/gvisor/pkg/hostarch"
 )
 
 // SwapUint32 implements IO.SwapUint32.

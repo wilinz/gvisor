@@ -22,8 +22,8 @@ import (
 	"testing"
 
 	"google.golang.org/protobuf/proto"
-	"gvisor.dev/gvisor/runsc/container"
-	"gvisor.dev/gvisor/runsc/sandbox"
+	"github.com/wilinz/gvisor/runsc/container"
+	"github.com/wilinz/gvisor/runsc/sandbox"
 )
 
 // ignoreList is a list of field names that are ignored from the

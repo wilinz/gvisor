@@ -21,14 +21,14 @@ import (
 	"math"
 
 	"golang.org/x/sys/unix"
-	"gvisor.dev/gvisor/pkg/abi/linux"
-	"gvisor.dev/gvisor/pkg/context"
-	"gvisor.dev/gvisor/pkg/cpuid"
-	"gvisor.dev/gvisor/pkg/errors/linuxerr"
-	"gvisor.dev/gvisor/pkg/hostarch"
-	"gvisor.dev/gvisor/pkg/marshal/primitive"
-	"gvisor.dev/gvisor/pkg/sentry/arch/fpu"
-	"gvisor.dev/gvisor/pkg/usermem"
+	"github.com/wilinz/gvisor/pkg/abi/linux"
+	"github.com/wilinz/gvisor/pkg/context"
+	"github.com/wilinz/gvisor/pkg/cpuid"
+	"github.com/wilinz/gvisor/pkg/errors/linuxerr"
+	"github.com/wilinz/gvisor/pkg/hostarch"
+	"github.com/wilinz/gvisor/pkg/marshal/primitive"
+	"github.com/wilinz/gvisor/pkg/sentry/arch/fpu"
+	"github.com/wilinz/gvisor/pkg/usermem"
 )
 
 // SignalContext64 is equivalent to struct sigcontext, the type passed as the

@@ -22,18 +22,18 @@ import (
 	"strings"
 	"time"
 
-	"gvisor.dev/gvisor/pkg/abi"
-	"gvisor.dev/gvisor/pkg/abi/linux"
-	"gvisor.dev/gvisor/pkg/bits"
-	"gvisor.dev/gvisor/pkg/eventchannel"
-	"gvisor.dev/gvisor/pkg/marshal/primitive"
-	"gvisor.dev/gvisor/pkg/seccomp"
-	"gvisor.dev/gvisor/pkg/sentry/arch"
-	"gvisor.dev/gvisor/pkg/sentry/kernel"
-	pb "gvisor.dev/gvisor/pkg/sentry/strace/strace_go_proto"
-	slinux "gvisor.dev/gvisor/pkg/sentry/syscalls/linux"
+	"github.com/wilinz/gvisor/pkg/abi"
+	"github.com/wilinz/gvisor/pkg/abi/linux"
+	"github.com/wilinz/gvisor/pkg/bits"
+	"github.com/wilinz/gvisor/pkg/eventchannel"
+	"github.com/wilinz/gvisor/pkg/marshal/primitive"
+	"github.com/wilinz/gvisor/pkg/seccomp"
+	"github.com/wilinz/gvisor/pkg/sentry/arch"
+	"github.com/wilinz/gvisor/pkg/sentry/kernel"
+	pb "github.com/wilinz/gvisor/pkg/sentry/strace/strace_go_proto"
+	slinux "github.com/wilinz/gvisor/pkg/sentry/syscalls/linux"
 
-	"gvisor.dev/gvisor/pkg/hostarch"
+	"github.com/wilinz/gvisor/pkg/hostarch"
 )
 
 // DefaultLogMaximumSize is the default LogMaximumSize.

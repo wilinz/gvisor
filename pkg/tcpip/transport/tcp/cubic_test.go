@@ -18,10 +18,10 @@ import (
 	"testing"
 	"time"
 
-	"gvisor.dev/gvisor/pkg/tcpip"
-	"gvisor.dev/gvisor/pkg/tcpip/faketime"
-	"gvisor.dev/gvisor/pkg/tcpip/seqnum"
-	"gvisor.dev/gvisor/pkg/tcpip/stack"
+	"github.com/wilinz/gvisor/pkg/tcpip"
+	"github.com/wilinz/gvisor/pkg/tcpip/faketime"
+	"github.com/wilinz/gvisor/pkg/tcpip/seqnum"
+	"github.com/wilinz/gvisor/pkg/tcpip/stack"
 )
 
 // TestHyStartAckTrainOK tests that HyStart triggers early exit from slow start

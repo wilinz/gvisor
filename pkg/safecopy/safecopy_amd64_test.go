@@ -21,9 +21,9 @@ import (
 	"testing"
 	"unsafe"
 
-	"gvisor.dev/gvisor/pkg/cpuid"
-	"gvisor.dev/gvisor/pkg/safecopy"
-	"gvisor.dev/gvisor/pkg/sentry/arch/fpu"
+	"github.com/wilinz/gvisor/pkg/cpuid"
+	"github.com/wilinz/gvisor/pkg/safecopy"
+	"github.com/wilinz/gvisor/pkg/sentry/arch/fpu"
 )
 
 func TestCheckXstateFault(t *testing.T) {

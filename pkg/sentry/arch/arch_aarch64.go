@@ -21,11 +21,11 @@ import (
 	"fmt"
 	"io"
 
-	"gvisor.dev/gvisor/pkg/abi/linux"
-	"gvisor.dev/gvisor/pkg/cpuid"
-	"gvisor.dev/gvisor/pkg/errors/linuxerr"
-	"gvisor.dev/gvisor/pkg/sentry/arch/fpu"
-	rpb "gvisor.dev/gvisor/pkg/sentry/arch/registers_go_proto"
+	"github.com/wilinz/gvisor/pkg/abi/linux"
+	"github.com/wilinz/gvisor/pkg/cpuid"
+	"github.com/wilinz/gvisor/pkg/errors/linuxerr"
+	"github.com/wilinz/gvisor/pkg/sentry/arch/fpu"
+	rpb "github.com/wilinz/gvisor/pkg/sentry/arch/registers_go_proto"
 )
 
 // Registers represents the CPU registers for this architecture.

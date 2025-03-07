@@ -25,12 +25,12 @@ import (
 
 	"github.com/syndtr/gocapability/capability"
 	"golang.org/x/sys/unix"
-	"gvisor.dev/gvisor/pkg/abi/linux"
-	"gvisor.dev/gvisor/pkg/context"
-	"gvisor.dev/gvisor/pkg/lisafs"
-	"gvisor.dev/gvisor/pkg/rand"
-	"gvisor.dev/gvisor/pkg/refs"
-	"gvisor.dev/gvisor/pkg/unet"
+	"github.com/wilinz/gvisor/pkg/abi/linux"
+	"github.com/wilinz/gvisor/pkg/context"
+	"github.com/wilinz/gvisor/pkg/lisafs"
+	"github.com/wilinz/gvisor/pkg/rand"
+	"github.com/wilinz/gvisor/pkg/refs"
+	"github.com/wilinz/gvisor/pkg/unet"
 )
 
 // Tester is the client code using this test suite. This interface abstracts

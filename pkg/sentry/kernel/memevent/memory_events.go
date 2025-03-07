@@ -19,13 +19,13 @@ package memevent
 import (
 	"time"
 
-	"gvisor.dev/gvisor/pkg/eventchannel"
-	"gvisor.dev/gvisor/pkg/log"
-	"gvisor.dev/gvisor/pkg/metric"
-	"gvisor.dev/gvisor/pkg/sentry/kernel"
-	pb "gvisor.dev/gvisor/pkg/sentry/kernel/memevent/memory_events_go_proto"
-	"gvisor.dev/gvisor/pkg/sentry/usage"
-	"gvisor.dev/gvisor/pkg/sync"
+	"github.com/wilinz/gvisor/pkg/eventchannel"
+	"github.com/wilinz/gvisor/pkg/log"
+	"github.com/wilinz/gvisor/pkg/metric"
+	"github.com/wilinz/gvisor/pkg/sentry/kernel"
+	pb "github.com/wilinz/gvisor/pkg/sentry/kernel/memevent/memory_events_go_proto"
+	"github.com/wilinz/gvisor/pkg/sentry/usage"
+	"github.com/wilinz/gvisor/pkg/sync"
 )
 
 var totalTicks = metric.MustCreateNewUint64Metric("/memory_events/ticks", metric.Uint64Metadata{

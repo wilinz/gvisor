@@ -17,8 +17,8 @@ package stack_test
 import (
 	"testing"
 
-	"gvisor.dev/gvisor/pkg/tcpip"
-	"gvisor.dev/gvisor/pkg/tcpip/stack"
+	"github.com/wilinz/gvisor/pkg/tcpip"
+	"github.com/wilinz/gvisor/pkg/tcpip/stack"
 )
 
 // TestAddressableEndpointStateCleanup tests that cleaning up an addressable

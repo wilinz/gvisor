@@ -25,11 +25,11 @@ import (
 	"time"
 
 	"golang.org/x/sys/unix"
-	"gvisor.dev/gvisor/pkg/abi/linux"
-	"gvisor.dev/gvisor/pkg/bpf"
-	"gvisor.dev/gvisor/pkg/seccomp"
-	"gvisor.dev/gvisor/pkg/test/testutil"
-	"gvisor.dev/gvisor/test/secbench/secbenchdef"
+	"github.com/wilinz/gvisor/pkg/abi/linux"
+	"github.com/wilinz/gvisor/pkg/bpf"
+	"github.com/wilinz/gvisor/pkg/seccomp"
+	"github.com/wilinz/gvisor/pkg/test/testutil"
+	"github.com/wilinz/gvisor/test/secbench/secbenchdef"
 )
 
 // BenchFromSyscallRules returns a new Bench created from SyscallRules.

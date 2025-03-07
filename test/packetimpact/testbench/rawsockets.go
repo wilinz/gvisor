@@ -22,7 +22,7 @@ import (
 	"time"
 
 	"golang.org/x/sys/unix"
-	"gvisor.dev/gvisor/pkg/hostarch"
+	"github.com/wilinz/gvisor/pkg/hostarch"
 )
 
 // Sniffer can sniff raw packets on the wire.

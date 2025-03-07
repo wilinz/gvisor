@@ -21,15 +21,15 @@ import (
 	"fmt"
 	"strings"
 
-	"gvisor.dev/gvisor/pkg/abi/linux"
-	"gvisor.dev/gvisor/pkg/context"
-	"gvisor.dev/gvisor/pkg/hostarch"
-	"gvisor.dev/gvisor/pkg/log"
-	"gvisor.dev/gvisor/pkg/sentry/fsimpl/proc"
-	"gvisor.dev/gvisor/pkg/sentry/kernel"
-	"gvisor.dev/gvisor/pkg/sentry/limits"
-	"gvisor.dev/gvisor/pkg/sentry/mm"
-	"gvisor.dev/gvisor/pkg/sentry/vfs"
+	"github.com/wilinz/gvisor/pkg/abi/linux"
+	"github.com/wilinz/gvisor/pkg/context"
+	"github.com/wilinz/gvisor/pkg/hostarch"
+	"github.com/wilinz/gvisor/pkg/log"
+	"github.com/wilinz/gvisor/pkg/sentry/fsimpl/proc"
+	"github.com/wilinz/gvisor/pkg/sentry/kernel"
+	"github.com/wilinz/gvisor/pkg/sentry/limits"
+	"github.com/wilinz/gvisor/pkg/sentry/mm"
+	"github.com/wilinz/gvisor/pkg/sentry/vfs"
 )
 
 // FDInfo contains information about an application file descriptor.

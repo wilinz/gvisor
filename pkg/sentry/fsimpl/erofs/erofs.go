@@ -21,15 +21,15 @@ import (
 	"strconv"
 	"sync/atomic"
 
-	"gvisor.dev/gvisor/pkg/abi/linux"
-	"gvisor.dev/gvisor/pkg/cleanup"
-	"gvisor.dev/gvisor/pkg/context"
-	"gvisor.dev/gvisor/pkg/erofs"
-	"gvisor.dev/gvisor/pkg/errors/linuxerr"
-	"gvisor.dev/gvisor/pkg/sentry/kernel/auth"
-	"gvisor.dev/gvisor/pkg/sentry/memmap"
-	"gvisor.dev/gvisor/pkg/sentry/vfs"
-	"gvisor.dev/gvisor/pkg/sync"
+	"github.com/wilinz/gvisor/pkg/abi/linux"
+	"github.com/wilinz/gvisor/pkg/cleanup"
+	"github.com/wilinz/gvisor/pkg/context"
+	"github.com/wilinz/gvisor/pkg/erofs"
+	"github.com/wilinz/gvisor/pkg/errors/linuxerr"
+	"github.com/wilinz/gvisor/pkg/sentry/kernel/auth"
+	"github.com/wilinz/gvisor/pkg/sentry/memmap"
+	"github.com/wilinz/gvisor/pkg/sentry/vfs"
+	"github.com/wilinz/gvisor/pkg/sync"
 )
 
 // Name is the filesystem name. It is part of the interface used by users,

@@ -29,11 +29,11 @@ import (
 	"github.com/containerd/log"
 	"github.com/gogo/protobuf/types"
 	"golang.org/x/sys/unix"
-	"gvisor.dev/gvisor/pkg/cleanup"
+	"github.com/wilinz/gvisor/pkg/cleanup"
 
-	"gvisor.dev/gvisor/pkg/shim/v1/extension"
-	"gvisor.dev/gvisor/pkg/shim/v1/runsc"
-	"gvisor.dev/gvisor/pkg/sync"
+	"github.com/wilinz/gvisor/pkg/shim/v1/extension"
+	"github.com/wilinz/gvisor/pkg/shim/v1/runsc"
+	"github.com/wilinz/gvisor/pkg/sync"
 )
 
 const (

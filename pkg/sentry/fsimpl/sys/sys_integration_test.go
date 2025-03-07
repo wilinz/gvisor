@@ -21,12 +21,12 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
-	"gvisor.dev/gvisor/pkg/abi/linux"
-	"gvisor.dev/gvisor/pkg/sentry/fsimpl/sys"
-	"gvisor.dev/gvisor/pkg/sentry/fsimpl/testutil"
-	"gvisor.dev/gvisor/pkg/sentry/kernel"
-	"gvisor.dev/gvisor/pkg/sentry/kernel/auth"
-	"gvisor.dev/gvisor/pkg/sentry/vfs"
+	"github.com/wilinz/gvisor/pkg/abi/linux"
+	"github.com/wilinz/gvisor/pkg/sentry/fsimpl/sys"
+	"github.com/wilinz/gvisor/pkg/sentry/fsimpl/testutil"
+	"github.com/wilinz/gvisor/pkg/sentry/kernel"
+	"github.com/wilinz/gvisor/pkg/sentry/kernel/auth"
+	"github.com/wilinz/gvisor/pkg/sentry/vfs"
 )
 
 const (

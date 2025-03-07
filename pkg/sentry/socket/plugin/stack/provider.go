@@ -17,16 +17,16 @@ package stack
 import (
 	"syscall"
 
-	"gvisor.dev/gvisor/pkg/abi/linux"
-	"gvisor.dev/gvisor/pkg/sentry/kernel"
-	"gvisor.dev/gvisor/pkg/sentry/kernel/auth"
-	"gvisor.dev/gvisor/pkg/sentry/socket"
-	"gvisor.dev/gvisor/pkg/sentry/socket/plugin/cgo"
-	"gvisor.dev/gvisor/pkg/sentry/vfs"
-	"gvisor.dev/gvisor/pkg/syserr"
-	"gvisor.dev/gvisor/pkg/tcpip"
-	"gvisor.dev/gvisor/pkg/tcpip/network/ipv4"
-	"gvisor.dev/gvisor/pkg/tcpip/network/ipv6"
+	"github.com/wilinz/gvisor/pkg/abi/linux"
+	"github.com/wilinz/gvisor/pkg/sentry/kernel"
+	"github.com/wilinz/gvisor/pkg/sentry/kernel/auth"
+	"github.com/wilinz/gvisor/pkg/sentry/socket"
+	"github.com/wilinz/gvisor/pkg/sentry/socket/plugin/cgo"
+	"github.com/wilinz/gvisor/pkg/sentry/vfs"
+	"github.com/wilinz/gvisor/pkg/syserr"
+	"github.com/wilinz/gvisor/pkg/tcpip"
+	"github.com/wilinz/gvisor/pkg/tcpip/network/ipv4"
+	"github.com/wilinz/gvisor/pkg/tcpip/network/ipv6"
 )
 
 type provider struct {

@@ -18,9 +18,9 @@ import (
 	"strconv"
 	"testing"
 
-	"gvisor.dev/gvisor/pkg/test/dockerutil"
-	"gvisor.dev/gvisor/test/benchmarks/harness"
-	"gvisor.dev/gvisor/test/benchmarks/tools"
+	"github.com/wilinz/gvisor/pkg/test/dockerutil"
+	"github.com/wilinz/gvisor/test/benchmarks/harness"
+	"github.com/wilinz/gvisor/test/benchmarks/tools"
 )
 
 // see Dockerfile '//images/benchmarks/httpd'.

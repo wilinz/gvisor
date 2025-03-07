@@ -21,13 +21,13 @@ import (
 	"sort"
 	"strings"
 
-	"gvisor.dev/gvisor/pkg/abi/linux"
-	"gvisor.dev/gvisor/pkg/atomicbitops"
-	"gvisor.dev/gvisor/pkg/cleanup"
-	"gvisor.dev/gvisor/pkg/context"
-	"gvisor.dev/gvisor/pkg/errors/linuxerr"
-	"gvisor.dev/gvisor/pkg/refs"
-	"gvisor.dev/gvisor/pkg/sentry/kernel/auth"
+	"github.com/wilinz/gvisor/pkg/abi/linux"
+	"github.com/wilinz/gvisor/pkg/atomicbitops"
+	"github.com/wilinz/gvisor/pkg/cleanup"
+	"github.com/wilinz/gvisor/pkg/context"
+	"github.com/wilinz/gvisor/pkg/errors/linuxerr"
+	"github.com/wilinz/gvisor/pkg/refs"
+	"github.com/wilinz/gvisor/pkg/sentry/kernel/auth"
 )
 
 // MountMax is the maximum number of mounts allowed. In Linux this can be

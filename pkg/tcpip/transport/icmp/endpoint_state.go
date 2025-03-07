@@ -19,9 +19,9 @@ import (
 	"fmt"
 	"time"
 
-	"gvisor.dev/gvisor/pkg/tcpip"
-	"gvisor.dev/gvisor/pkg/tcpip/stack"
-	"gvisor.dev/gvisor/pkg/tcpip/transport"
+	"github.com/wilinz/gvisor/pkg/tcpip"
+	"github.com/wilinz/gvisor/pkg/tcpip/stack"
+	"github.com/wilinz/gvisor/pkg/tcpip/transport"
 )
 
 // saveReceivedAt is invoked by stateify.

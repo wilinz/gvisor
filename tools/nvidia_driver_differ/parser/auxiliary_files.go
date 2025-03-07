@@ -20,7 +20,7 @@ import (
 	"os/exec"
 	"path"
 
-	"gvisor.dev/gvisor/pkg/sentry/devices/nvproxy/nvconf"
+	"github.com/wilinz/gvisor/pkg/sentry/devices/nvproxy/nvconf"
 )
 
 // GitRepoURL is the URL for the NVIDIA open-gpu-kernel-modules repo.

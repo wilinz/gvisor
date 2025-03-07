@@ -22,9 +22,9 @@ import (
 	"time"
 
 	"github.com/google/subcommands"
-	"gvisor.dev/gvisor/pkg/test/testutil"
-	"gvisor.dev/gvisor/pkg/unet"
-	"gvisor.dev/gvisor/runsc/flag"
+	"github.com/wilinz/gvisor/pkg/test/testutil"
+	"github.com/wilinz/gvisor/pkg/unet"
+	"github.com/wilinz/gvisor/runsc/flag"
 )
 
 const fileContents = "foobarbaz"

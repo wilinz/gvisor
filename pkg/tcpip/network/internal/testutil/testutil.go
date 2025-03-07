@@ -21,13 +21,13 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
-	"gvisor.dev/gvisor/pkg/buffer"
-	"gvisor.dev/gvisor/pkg/rand"
-	"gvisor.dev/gvisor/pkg/tcpip"
-	"gvisor.dev/gvisor/pkg/tcpip/checker"
-	"gvisor.dev/gvisor/pkg/tcpip/header"
-	"gvisor.dev/gvisor/pkg/tcpip/link/channel"
-	"gvisor.dev/gvisor/pkg/tcpip/stack"
+	"github.com/wilinz/gvisor/pkg/buffer"
+	"github.com/wilinz/gvisor/pkg/rand"
+	"github.com/wilinz/gvisor/pkg/tcpip"
+	"github.com/wilinz/gvisor/pkg/tcpip/checker"
+	"github.com/wilinz/gvisor/pkg/tcpip/header"
+	"github.com/wilinz/gvisor/pkg/tcpip/link/channel"
+	"github.com/wilinz/gvisor/pkg/tcpip/stack"
 )
 
 // MockLinkEndpoint is an endpoint used for testing, it stores packets written

@@ -20,7 +20,7 @@ import (
 	"io"
 	"path/filepath"
 
-	"gvisor.dev/gvisor/pkg/sentry/devices/nvproxy/nvconf"
+	"github.com/wilinz/gvisor/pkg/sentry/devices/nvproxy/nvconf"
 )
 
 // DriverSourceDir represents a directory containing the source code for a given driver version.

@@ -27,13 +27,13 @@ import (
 	"strings"
 
 	"golang.org/x/sys/unix"
-	"gvisor.dev/gvisor/pkg/abi/tpu"
-	"gvisor.dev/gvisor/pkg/context"
-	"gvisor.dev/gvisor/pkg/fspath"
-	"gvisor.dev/gvisor/pkg/sentry/devices/tpuproxy/accel"
-	"gvisor.dev/gvisor/pkg/sentry/devices/tpuproxy/vfio"
-	"gvisor.dev/gvisor/pkg/sentry/kernel/auth"
-	"gvisor.dev/gvisor/pkg/sentry/vfs"
+	"github.com/wilinz/gvisor/pkg/abi/tpu"
+	"github.com/wilinz/gvisor/pkg/context"
+	"github.com/wilinz/gvisor/pkg/fspath"
+	"github.com/wilinz/gvisor/pkg/sentry/devices/tpuproxy/accel"
+	"github.com/wilinz/gvisor/pkg/sentry/devices/tpuproxy/vfio"
+	"github.com/wilinz/gvisor/pkg/sentry/kernel/auth"
+	"github.com/wilinz/gvisor/pkg/sentry/vfs"
 )
 
 var (

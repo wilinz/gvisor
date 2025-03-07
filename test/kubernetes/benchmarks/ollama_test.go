@@ -21,9 +21,9 @@ import (
 	"os"
 	"testing"
 
-	"gvisor.dev/gvisor/test/kubernetes/k8sctx"
-	"gvisor.dev/gvisor/test/kubernetes/k8sctx/kubectlctx"
-	"gvisor.dev/gvisor/test/kubernetes/testcluster"
+	"github.com/wilinz/gvisor/test/kubernetes/k8sctx"
+	"github.com/wilinz/gvisor/test/kubernetes/k8sctx/kubectlctx"
+	"github.com/wilinz/gvisor/test/kubernetes/testcluster"
 )
 
 func TestOllama(t *testing.T) {

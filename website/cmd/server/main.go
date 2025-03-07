@@ -89,7 +89,7 @@ var prefixHelpers = map[string]prefixInfo{
 	"cl": {baseURL: "https://gvisor-review.googlesource.com/c/gvisor/+/%s", checkValidID: true},
 
 	// Redirect to source documentation.
-	"gvisor": {baseURL: "https://pkg.go.dev/gvisor.dev/gvisor/%s"},
+	"gvisor": {baseURL: "https://pkg.go.dev/github.com/wilinz/gvisor/%s"},
 
 	// Redirect to code search, with the path as the query.
 	"cs": {baseURL: "https://cs.opensource.google/search?q=%s&ss=gvisor", queryEscape: true},

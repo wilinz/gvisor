@@ -20,9 +20,9 @@ import (
 
 	specs "github.com/opencontainers/runtime-spec/specs-go"
 	"golang.org/x/sys/unix"
-	"gvisor.dev/gvisor/pkg/abi/linux"
-	"gvisor.dev/gvisor/pkg/bpf"
-	"gvisor.dev/gvisor/pkg/seccomp"
+	"github.com/wilinz/gvisor/pkg/abi/linux"
+	"github.com/wilinz/gvisor/pkg/bpf"
+	"github.com/wilinz/gvisor/pkg/seccomp"
 )
 
 // testInput creates an Input struct with given seccomp input values.

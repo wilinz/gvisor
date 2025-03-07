@@ -18,7 +18,7 @@ import (
 	"unsafe"
 
 	"golang.org/x/sys/unix"
-	"gvisor.dev/gvisor/pkg/sentry/memmap"
+	"github.com/wilinz/gvisor/pkg/sentry/memmap"
 )
 
 // Preconditions: The FileRange represented by c is a superset of fr.

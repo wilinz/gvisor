@@ -19,11 +19,11 @@ import (
 	"math"
 
 	"golang.org/x/sys/unix"
-	"gvisor.dev/gvisor/pkg/context"
-	"gvisor.dev/gvisor/pkg/flipcall"
-	"gvisor.dev/gvisor/pkg/log"
-	"gvisor.dev/gvisor/pkg/sync"
-	"gvisor.dev/gvisor/pkg/unet"
+	"github.com/wilinz/gvisor/pkg/context"
+	"github.com/wilinz/gvisor/pkg/flipcall"
+	"github.com/wilinz/gvisor/pkg/log"
+	"github.com/wilinz/gvisor/pkg/sync"
+	"github.com/wilinz/gvisor/pkg/unet"
 )
 
 const (

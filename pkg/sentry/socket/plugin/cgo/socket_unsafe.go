@@ -65,8 +65,8 @@ import (
 	"syscall"
 	"unsafe"
 
-	"gvisor.dev/gvisor/pkg/abi/linux"
-	linuxerrno "gvisor.dev/gvisor/pkg/abi/linux/errno"
+	"github.com/wilinz/gvisor/pkg/abi/linux"
+	linuxerrno "github.com/wilinz/gvisor/pkg/abi/linux/errno"
 )
 
 // EpollCreate works as a CGO wrapper for plugin_epoll_create.

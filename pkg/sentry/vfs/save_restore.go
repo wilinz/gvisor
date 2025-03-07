@@ -19,9 +19,9 @@ import (
 	"fmt"
 	"sync/atomic"
 
-	"gvisor.dev/gvisor/pkg/context"
-	"gvisor.dev/gvisor/pkg/refs"
-	"gvisor.dev/gvisor/pkg/waiter"
+	"github.com/wilinz/gvisor/pkg/context"
+	"github.com/wilinz/gvisor/pkg/refs"
+	"github.com/wilinz/gvisor/pkg/waiter"
 )
 
 // ErrCorruption indicates a failed restore due to external file system state in

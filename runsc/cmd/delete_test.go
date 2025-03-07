@@ -18,7 +18,7 @@ import (
 	"os"
 	"testing"
 
-	"gvisor.dev/gvisor/runsc/config"
+	"github.com/wilinz/gvisor/runsc/config"
 )
 
 func TestNotFound(t *testing.T) {

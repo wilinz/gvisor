@@ -17,7 +17,7 @@ package kvm
 import (
 	"fmt"
 
-	"gvisor.dev/gvisor/pkg/ring0/pagetables"
+	"github.com/wilinz/gvisor/pkg/ring0/pagetables"
 )
 
 type allocator struct {

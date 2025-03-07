@@ -19,10 +19,10 @@ import (
 	"sort"
 
 	"golang.org/x/sys/unix"
-	"gvisor.dev/gvisor/pkg/hostarch"
-	"gvisor.dev/gvisor/pkg/hostsyscall"
-	"gvisor.dev/gvisor/pkg/log"
-	"gvisor.dev/gvisor/pkg/ring0"
+	"github.com/wilinz/gvisor/pkg/hostarch"
+	"github.com/wilinz/gvisor/pkg/hostsyscall"
+	"github.com/wilinz/gvisor/pkg/log"
+	"github.com/wilinz/gvisor/pkg/ring0"
 )
 
 type region struct {

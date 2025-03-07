@@ -18,7 +18,7 @@ import (
 	"slices"
 	"testing"
 
-	"gvisor.dev/gvisor/pkg/hostarch"
+	"github.com/wilinz/gvisor/pkg/hostarch"
 )
 
 type testMappingSpace struct {

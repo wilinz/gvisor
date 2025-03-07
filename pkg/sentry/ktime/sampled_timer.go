@@ -18,8 +18,8 @@ import (
 	"fmt"
 	"time"
 
-	"gvisor.dev/gvisor/pkg/sync"
-	"gvisor.dev/gvisor/pkg/waiter"
+	"github.com/wilinz/gvisor/pkg/sync"
+	"github.com/wilinz/gvisor/pkg/waiter"
 )
 
 // SampledTimer implements Timer using a goroutine that reads a SampledClock

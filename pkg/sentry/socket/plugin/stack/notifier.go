@@ -21,9 +21,9 @@ import (
 	"syscall"
 
 	"golang.org/x/sys/unix"
-	"gvisor.dev/gvisor/pkg/sentry/socket/plugin"
-	"gvisor.dev/gvisor/pkg/sentry/socket/plugin/cgo"
-	"gvisor.dev/gvisor/pkg/waiter"
+	"github.com/wilinz/gvisor/pkg/sentry/socket/plugin"
+	"github.com/wilinz/gvisor/pkg/sentry/socket/plugin/cgo"
+	"github.com/wilinz/gvisor/pkg/waiter"
 )
 
 // Notifier holds all the state necessary to issue notifications when

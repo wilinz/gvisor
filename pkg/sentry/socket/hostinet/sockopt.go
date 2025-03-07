@@ -20,12 +20,12 @@ import (
 	"time"
 
 	"golang.org/x/sys/unix"
-	"gvisor.dev/gvisor/pkg/abi/linux"
-	"gvisor.dev/gvisor/pkg/hostarch"
-	"gvisor.dev/gvisor/pkg/marshal"
-	"gvisor.dev/gvisor/pkg/marshal/primitive"
-	"gvisor.dev/gvisor/pkg/sentry/kernel"
-	"gvisor.dev/gvisor/pkg/syserr"
+	"github.com/wilinz/gvisor/pkg/abi/linux"
+	"github.com/wilinz/gvisor/pkg/hostarch"
+	"github.com/wilinz/gvisor/pkg/marshal"
+	"github.com/wilinz/gvisor/pkg/marshal/primitive"
+	"github.com/wilinz/gvisor/pkg/sentry/kernel"
+	"github.com/wilinz/gvisor/pkg/syserr"
 )
 
 const (

@@ -22,7 +22,7 @@ import (
 	"io"
 	"testing"
 
-	"gvisor.dev/gvisor/pkg/state"
+	"github.com/wilinz/gvisor/pkg/state"
 )
 
 // buildPtrObject builds a benchmark object.

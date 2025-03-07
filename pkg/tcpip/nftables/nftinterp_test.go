@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"testing"
 
-	"gvisor.dev/gvisor/pkg/abi/linux"
+	"github.com/wilinz/gvisor/pkg/abi/linux"
 )
 
 type interpretOperationTestAction struct {

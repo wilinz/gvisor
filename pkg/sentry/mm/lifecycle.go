@@ -17,14 +17,14 @@ package mm
 import (
 	"fmt"
 
-	"gvisor.dev/gvisor/pkg/atomicbitops"
-	"gvisor.dev/gvisor/pkg/context"
-	"gvisor.dev/gvisor/pkg/hostarch"
-	"gvisor.dev/gvisor/pkg/sentry/arch"
-	"gvisor.dev/gvisor/pkg/sentry/limits"
-	"gvisor.dev/gvisor/pkg/sentry/memmap"
-	"gvisor.dev/gvisor/pkg/sentry/pgalloc"
-	"gvisor.dev/gvisor/pkg/sentry/platform"
+	"github.com/wilinz/gvisor/pkg/atomicbitops"
+	"github.com/wilinz/gvisor/pkg/context"
+	"github.com/wilinz/gvisor/pkg/hostarch"
+	"github.com/wilinz/gvisor/pkg/sentry/arch"
+	"github.com/wilinz/gvisor/pkg/sentry/limits"
+	"github.com/wilinz/gvisor/pkg/sentry/memmap"
+	"github.com/wilinz/gvisor/pkg/sentry/pgalloc"
+	"github.com/wilinz/gvisor/pkg/sentry/platform"
 )
 
 // NewMemoryManager returns a new MemoryManager with no mappings and 1 user.

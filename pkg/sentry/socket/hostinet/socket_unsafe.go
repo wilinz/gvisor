@@ -18,16 +18,16 @@ import (
 	"unsafe"
 
 	"golang.org/x/sys/unix"
-	"gvisor.dev/gvisor/pkg/abi/linux"
-	"gvisor.dev/gvisor/pkg/context"
-	"gvisor.dev/gvisor/pkg/errors/linuxerr"
-	"gvisor.dev/gvisor/pkg/hostarch"
-	"gvisor.dev/gvisor/pkg/sentry/arch"
-	"gvisor.dev/gvisor/pkg/sentry/inet"
-	"gvisor.dev/gvisor/pkg/sentry/kernel"
-	"gvisor.dev/gvisor/pkg/sentry/socket"
-	"gvisor.dev/gvisor/pkg/syserr"
-	"gvisor.dev/gvisor/pkg/usermem"
+	"github.com/wilinz/gvisor/pkg/abi/linux"
+	"github.com/wilinz/gvisor/pkg/context"
+	"github.com/wilinz/gvisor/pkg/errors/linuxerr"
+	"github.com/wilinz/gvisor/pkg/hostarch"
+	"github.com/wilinz/gvisor/pkg/sentry/arch"
+	"github.com/wilinz/gvisor/pkg/sentry/inet"
+	"github.com/wilinz/gvisor/pkg/sentry/kernel"
+	"github.com/wilinz/gvisor/pkg/sentry/socket"
+	"github.com/wilinz/gvisor/pkg/syserr"
+	"github.com/wilinz/gvisor/pkg/usermem"
 )
 
 func firstBytePtr(bs []byte) unsafe.Pointer {

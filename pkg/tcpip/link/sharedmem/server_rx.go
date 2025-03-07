@@ -19,12 +19,12 @@ package sharedmem
 
 import (
 	"golang.org/x/sys/unix"
-	"gvisor.dev/gvisor/pkg/atomicbitops"
-	"gvisor.dev/gvisor/pkg/buffer"
-	"gvisor.dev/gvisor/pkg/cleanup"
-	"gvisor.dev/gvisor/pkg/eventfd"
-	"gvisor.dev/gvisor/pkg/tcpip/link/sharedmem/pipe"
-	"gvisor.dev/gvisor/pkg/tcpip/link/sharedmem/queue"
+	"github.com/wilinz/gvisor/pkg/atomicbitops"
+	"github.com/wilinz/gvisor/pkg/buffer"
+	"github.com/wilinz/gvisor/pkg/cleanup"
+	"github.com/wilinz/gvisor/pkg/eventfd"
+	"github.com/wilinz/gvisor/pkg/tcpip/link/sharedmem/pipe"
+	"github.com/wilinz/gvisor/pkg/tcpip/link/sharedmem/queue"
 )
 
 // +stateify savable

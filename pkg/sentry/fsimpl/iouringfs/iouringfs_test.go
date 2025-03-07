@@ -20,7 +20,7 @@ import (
 	"strings"
 	"testing"
 
-	"gvisor.dev/gvisor/pkg/hostarch"
+	"github.com/wilinz/gvisor/pkg/hostarch"
 )
 
 func TestRoundUpPowerOfTwo(t *testing.T) {

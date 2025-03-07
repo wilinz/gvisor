@@ -24,7 +24,7 @@ import (
 	"testing"
 	"time"
 
-	"gvisor.dev/gvisor/pkg/rand"
+	"github.com/wilinz/gvisor/pkg/rand"
 )
 
 var (

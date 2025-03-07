@@ -15,12 +15,12 @@
 package memdev
 
 import (
-	"gvisor.dev/gvisor/pkg/atomicbitops"
-	"gvisor.dev/gvisor/pkg/context"
-	"gvisor.dev/gvisor/pkg/rand"
-	"gvisor.dev/gvisor/pkg/safemem"
-	"gvisor.dev/gvisor/pkg/sentry/vfs"
-	"gvisor.dev/gvisor/pkg/usermem"
+	"github.com/wilinz/gvisor/pkg/atomicbitops"
+	"github.com/wilinz/gvisor/pkg/context"
+	"github.com/wilinz/gvisor/pkg/rand"
+	"github.com/wilinz/gvisor/pkg/safemem"
+	"github.com/wilinz/gvisor/pkg/sentry/vfs"
+	"github.com/wilinz/gvisor/pkg/usermem"
 )
 
 const (

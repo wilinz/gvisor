@@ -17,7 +17,7 @@ package pipe
 import (
 	"context"
 
-	"gvisor.dev/gvisor/pkg/safemem"
+	"github.com/wilinz/gvisor/pkg/safemem"
 )
 
 // afterLoad is called by stateify.

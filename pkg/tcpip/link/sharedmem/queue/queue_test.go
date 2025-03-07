@@ -19,8 +19,8 @@ import (
 	"slices"
 	"testing"
 
-	"gvisor.dev/gvisor/pkg/atomicbitops"
-	"gvisor.dev/gvisor/pkg/tcpip/link/sharedmem/pipe"
+	"github.com/wilinz/gvisor/pkg/atomicbitops"
+	"github.com/wilinz/gvisor/pkg/tcpip/link/sharedmem/pipe"
 )
 
 func TestBasicTxQueue(t *testing.T) {

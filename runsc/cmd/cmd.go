@@ -24,9 +24,9 @@ import (
 
 	specs "github.com/opencontainers/runtime-spec/specs-go"
 	"golang.org/x/sys/unix"
-	"gvisor.dev/gvisor/pkg/fd"
-	"gvisor.dev/gvisor/pkg/log"
-	"gvisor.dev/gvisor/runsc/specutils"
+	"github.com/wilinz/gvisor/pkg/fd"
+	"github.com/wilinz/gvisor/pkg/log"
+	"github.com/wilinz/gvisor/runsc/specutils"
 )
 
 // intFlags can be used with int flags that appear multiple times. It supports

@@ -20,9 +20,9 @@
 package main
 
 import (
-	_ "gvisor.dev/gvisor/pkg/sentry/socket/plugin/stack"
-	"gvisor.dev/gvisor/runsc/cli"
-	"gvisor.dev/gvisor/runsc/version"
+	_ "github.com/wilinz/gvisor/pkg/sentry/socket/plugin/stack"
+	"github.com/wilinz/gvisor/runsc/cli"
+	"github.com/wilinz/gvisor/runsc/version"
 )
 
 // version.Version is set dynamically, but needs to be

@@ -22,7 +22,7 @@ import (
 	"strings"
 	"testing"
 
-	"gvisor.dev/gvisor/pkg/sentry/devices/nvproxy/nvconf"
+	"github.com/wilinz/gvisor/pkg/sentry/devices/nvproxy/nvconf"
 )
 
 // TestVersionInstalled tests when the version is already installed.

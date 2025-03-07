@@ -18,11 +18,11 @@
 package usertrap
 
 import (
-	"gvisor.dev/gvisor/pkg/context"
-	"gvisor.dev/gvisor/pkg/hostarch"
-	"gvisor.dev/gvisor/pkg/sentry/arch"
-	"gvisor.dev/gvisor/pkg/sentry/memmap"
-	"gvisor.dev/gvisor/pkg/usermem"
+	"github.com/wilinz/gvisor/pkg/context"
+	"github.com/wilinz/gvisor/pkg/hostarch"
+	"github.com/wilinz/gvisor/pkg/sentry/arch"
+	"github.com/wilinz/gvisor/pkg/sentry/memmap"
+	"github.com/wilinz/gvisor/pkg/usermem"
 )
 
 // trapNR is the maximum number of traps what can fit in the trap table.

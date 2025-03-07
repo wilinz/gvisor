@@ -18,10 +18,10 @@
 package netstack
 
 import (
-	"gvisor.dev/gvisor/pkg/marshal"
-	"gvisor.dev/gvisor/pkg/sentry/kernel"
-	"gvisor.dev/gvisor/pkg/sentry/socket"
-	"gvisor.dev/gvisor/pkg/syserr"
+	"github.com/wilinz/gvisor/pkg/marshal"
+	"github.com/wilinz/gvisor/pkg/sentry/kernel"
+	"github.com/wilinz/gvisor/pkg/sentry/socket"
+	"github.com/wilinz/gvisor/pkg/syserr"
 )
 
 // setSockOptSocketCustom handles SetSockOpt options not handled by setSockOptSocket.

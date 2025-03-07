@@ -17,9 +17,9 @@ package metric
 import (
 	"unsafe"
 
-	"gvisor.dev/gvisor/pkg/atomicbitops"
-	"gvisor.dev/gvisor/pkg/gohacks"
-	"gvisor.dev/gvisor/pkg/sync"
+	"github.com/wilinz/gvisor/pkg/atomicbitops"
+	"github.com/wilinz/gvisor/pkg/gohacks"
+	"github.com/wilinz/gvisor/pkg/sync"
 )
 
 // snapshotDistribution snapshots the sample data of distribution metrics in

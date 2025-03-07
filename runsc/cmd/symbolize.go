@@ -22,9 +22,9 @@ import (
 	"strings"
 
 	"github.com/google/subcommands"
-	"gvisor.dev/gvisor/pkg/coverage"
-	"gvisor.dev/gvisor/runsc/cmd/util"
-	"gvisor.dev/gvisor/runsc/flag"
+	"github.com/wilinz/gvisor/pkg/coverage"
+	"github.com/wilinz/gvisor/runsc/cmd/util"
+	"github.com/wilinz/gvisor/runsc/flag"
 )
 
 // Symbolize implements subcommands.Command for the "symbolize" command.

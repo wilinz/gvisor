@@ -15,7 +15,7 @@
 package ktime
 
 import (
-	"gvisor.dev/gvisor/pkg/context"
+	"github.com/wilinz/gvisor/pkg/context"
 )
 
 // contextID is the time package's type for context.Context.Value keys.

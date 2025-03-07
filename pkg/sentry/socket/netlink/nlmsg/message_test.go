@@ -19,10 +19,10 @@ import (
 	"reflect"
 	"testing"
 
-	"gvisor.dev/gvisor/pkg/abi/linux"
-	"gvisor.dev/gvisor/pkg/marshal"
-	"gvisor.dev/gvisor/pkg/marshal/primitive"
-	"gvisor.dev/gvisor/pkg/sentry/socket/netlink/nlmsg"
+	"github.com/wilinz/gvisor/pkg/abi/linux"
+	"github.com/wilinz/gvisor/pkg/marshal"
+	"github.com/wilinz/gvisor/pkg/marshal/primitive"
+	"github.com/wilinz/gvisor/pkg/sentry/socket/netlink/nlmsg"
 )
 
 func TestParseMessage(t *testing.T) {

@@ -28,13 +28,13 @@ import (
 	"github.com/cilium/ebpf/link"
 	"github.com/vishvananda/netlink"
 	"golang.org/x/sys/unix"
-	"gvisor.dev/gvisor/pkg/log"
-	"gvisor.dev/gvisor/pkg/urpc"
-	"gvisor.dev/gvisor/pkg/xdp"
-	"gvisor.dev/gvisor/runsc/boot"
-	"gvisor.dev/gvisor/runsc/config"
-	"gvisor.dev/gvisor/runsc/sandbox/bpf"
-	xdpcmd "gvisor.dev/gvisor/tools/xdp/cmd"
+	"github.com/wilinz/gvisor/pkg/log"
+	"github.com/wilinz/gvisor/pkg/urpc"
+	"github.com/wilinz/gvisor/pkg/xdp"
+	"github.com/wilinz/gvisor/runsc/boot"
+	"github.com/wilinz/gvisor/runsc/config"
+	"github.com/wilinz/gvisor/runsc/sandbox/bpf"
+	xdpcmd "github.com/wilinz/gvisor/tools/xdp/cmd"
 )
 
 // This file supports XDP in gVisor. It is not compiled in by default.

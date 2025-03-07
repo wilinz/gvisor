@@ -24,7 +24,7 @@ import (
 	"strings"
 	"time"
 
-	"gvisor.dev/gvisor/pkg/test/testutil"
+	"github.com/wilinz/gvisor/pkg/test/testutil"
 )
 
 // filterTable calls `ip{6}tables -t filter` with the given args.

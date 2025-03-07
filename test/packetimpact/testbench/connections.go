@@ -23,9 +23,9 @@ import (
 	"github.com/mohae/deepcopy"
 	"go.uber.org/multierr"
 	"golang.org/x/sys/unix"
-	"gvisor.dev/gvisor/pkg/tcpip"
-	"gvisor.dev/gvisor/pkg/tcpip/header"
-	"gvisor.dev/gvisor/pkg/tcpip/seqnum"
+	"github.com/wilinz/gvisor/pkg/tcpip"
+	"github.com/wilinz/gvisor/pkg/tcpip/header"
+	"github.com/wilinz/gvisor/pkg/tcpip/seqnum"
 )
 
 func portFromSockaddr(sa unix.Sockaddr) (uint16, error) {

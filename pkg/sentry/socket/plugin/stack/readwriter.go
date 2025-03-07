@@ -18,9 +18,9 @@ import (
 	"sync"
 	"syscall"
 
-	"gvisor.dev/gvisor/pkg/abi/linux"
-	"gvisor.dev/gvisor/pkg/safemem"
-	"gvisor.dev/gvisor/pkg/sentry/socket/plugin/cgo"
+	"github.com/wilinz/gvisor/pkg/abi/linux"
+	"github.com/wilinz/gvisor/pkg/safemem"
+	"github.com/wilinz/gvisor/pkg/sentry/socket/plugin/cgo"
 )
 
 type pluginStackRW struct {

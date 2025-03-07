@@ -18,8 +18,8 @@ import (
 	"slices"
 	"testing"
 
-	"gvisor.dev/gvisor/pkg/hostarch"
-	"gvisor.dev/gvisor/pkg/sentry/memmap"
+	"github.com/wilinz/gvisor/pkg/hostarch"
+	"github.com/wilinz/gvisor/pkg/sentry/memmap"
 )
 
 func TestDirtySet(t *testing.T) {

@@ -17,7 +17,7 @@ package kernel
 import (
 	"context"
 
-	"gvisor.dev/gvisor/pkg/tcpip"
+	"github.com/wilinz/gvisor/pkg/tcpip"
 )
 
 // afterLoad is invoked by stateify.

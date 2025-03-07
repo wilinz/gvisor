@@ -19,14 +19,14 @@ import (
 	"fmt"
 	"os"
 
-	"gvisor.dev/gvisor/pkg/abi/linux"
-	"gvisor.dev/gvisor/pkg/bpf"
-	"gvisor.dev/gvisor/pkg/log"
-	"gvisor.dev/gvisor/pkg/seccomp"
-	"gvisor.dev/gvisor/pkg/sentry/devices/nvproxy/nvconf"
-	"gvisor.dev/gvisor/pkg/sentry/platform/systrap"
-	"gvisor.dev/gvisor/runsc/boot/filter/config"
-	"gvisor.dev/gvisor/runsc/flag"
+	"github.com/wilinz/gvisor/pkg/abi/linux"
+	"github.com/wilinz/gvisor/pkg/bpf"
+	"github.com/wilinz/gvisor/pkg/log"
+	"github.com/wilinz/gvisor/pkg/seccomp"
+	"github.com/wilinz/gvisor/pkg/sentry/devices/nvproxy/nvconf"
+	"github.com/wilinz/gvisor/pkg/sentry/platform/systrap"
+	"github.com/wilinz/gvisor/runsc/boot/filter/config"
+	"github.com/wilinz/gvisor/runsc/flag"
 )
 
 // Flags.

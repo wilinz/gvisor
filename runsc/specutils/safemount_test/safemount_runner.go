@@ -25,7 +25,7 @@ import (
 	"path/filepath"
 
 	"golang.org/x/sys/unix"
-	"gvisor.dev/gvisor/runsc/specutils"
+	"github.com/wilinz/gvisor/runsc/specutils"
 )
 
 func main() {

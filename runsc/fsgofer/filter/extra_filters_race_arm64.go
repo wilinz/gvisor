@@ -18,7 +18,7 @@
 package filter
 
 import (
-	"gvisor.dev/gvisor/pkg/seccomp"
+	"github.com/wilinz/gvisor/pkg/seccomp"
 )
 
 func archInstrumentationFilters(f seccomp.SyscallRules) seccomp.SyscallRules {

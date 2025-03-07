@@ -28,8 +28,8 @@ import (
 	"strings"
 	"time"
 
-	"gvisor.dev/gvisor/pkg/test/dockerutil"
-	"gvisor.dev/gvisor/pkg/test/testutil"
+	"github.com/wilinz/gvisor/pkg/test/dockerutil"
+	"github.com/wilinz/gvisor/pkg/test/testutil"
 )
 
 // Crictl contains information required to run the crictl utility.

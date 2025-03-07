@@ -23,10 +23,10 @@ import (
 	"github.com/cilium/ebpf"
 	"github.com/cilium/ebpf/link"
 	"golang.org/x/sys/unix"
-	"gvisor.dev/gvisor/pkg/tcpip"
-	"gvisor.dev/gvisor/pkg/tcpip/link/xdp"
-	"gvisor.dev/gvisor/pkg/tcpip/stack"
-	"gvisor.dev/gvisor/runsc/sandbox/bpf"
+	"github.com/wilinz/gvisor/pkg/tcpip"
+	"github.com/wilinz/gvisor/pkg/tcpip/link/xdp"
+	"github.com/wilinz/gvisor/pkg/tcpip/stack"
+	"github.com/wilinz/gvisor/runsc/sandbox/bpf"
 )
 
 func newXDPEndpoint(ifaceName string, mac net.HardwareAddr) (stack.LinkEndpoint, error) {

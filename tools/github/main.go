@@ -25,7 +25,7 @@ import (
 
 	"github.com/google/go-github/github"
 	"golang.org/x/oauth2"
-	"gvisor.dev/gvisor/tools/github/reviver"
+	"github.com/wilinz/gvisor/tools/github/reviver"
 )
 
 var (

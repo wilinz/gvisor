@@ -18,10 +18,10 @@ import (
 	"fmt"
 	"regexp"
 
-	"gvisor.dev/gvisor/pkg/metric"
-	pb "gvisor.dev/gvisor/pkg/metric/metric_go_proto"
-	"gvisor.dev/gvisor/pkg/prometheus"
-	"gvisor.dev/gvisor/pkg/sync"
+	"github.com/wilinz/gvisor/pkg/metric"
+	pb "github.com/wilinz/gvisor/pkg/metric/metric_go_proto"
+	"github.com/wilinz/gvisor/pkg/prometheus"
+	"github.com/wilinz/gvisor/pkg/sync"
 )
 
 // Metrics includes metrics-related RPC stubs.

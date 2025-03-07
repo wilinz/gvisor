@@ -28,12 +28,12 @@ import (
 	"strings"
 	"testing"
 
-	"gvisor.dev/gvisor/pkg/abi/nvgpu"
-	"gvisor.dev/gvisor/pkg/test/testutil"
+	"github.com/wilinz/gvisor/pkg/abi/nvgpu"
+	"github.com/wilinz/gvisor/pkg/test/testutil"
 
-	"gvisor.dev/gvisor/pkg/sentry/devices/nvproxy"
-	"gvisor.dev/gvisor/pkg/sentry/devices/nvproxy/nvconf"
-	"gvisor.dev/gvisor/tools/nvidia_driver_differ/parser"
+	"github.com/wilinz/gvisor/pkg/sentry/devices/nvproxy"
+	"github.com/wilinz/gvisor/pkg/sentry/devices/nvproxy/nvconf"
+	"github.com/wilinz/gvisor/tools/nvidia_driver_differ/parser"
 )
 
 func createParserRunner(t *testing.T) (*os.File, *parser.Runner) {

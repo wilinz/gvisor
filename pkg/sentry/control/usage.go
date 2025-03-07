@@ -21,10 +21,10 @@ import (
 	"runtime"
 
 	"golang.org/x/sys/unix"
-	"gvisor.dev/gvisor/pkg/sentry/fsmetric"
-	"gvisor.dev/gvisor/pkg/sentry/kernel"
-	"gvisor.dev/gvisor/pkg/sentry/usage"
-	"gvisor.dev/gvisor/pkg/urpc"
+	"github.com/wilinz/gvisor/pkg/sentry/fsmetric"
+	"github.com/wilinz/gvisor/pkg/sentry/kernel"
+	"github.com/wilinz/gvisor/pkg/sentry/usage"
+	"github.com/wilinz/gvisor/pkg/urpc"
 )
 
 // Usage includes usage-related RPC stubs.

@@ -24,12 +24,12 @@ import (
 	"regexp"
 	"strings"
 
-	"gvisor.dev/gvisor/pkg/abi/linux"
-	"gvisor.dev/gvisor/pkg/abi/nvgpu"
-	"gvisor.dev/gvisor/pkg/log"
-	"gvisor.dev/gvisor/pkg/sentry/devices/nvproxy"
-	"gvisor.dev/gvisor/pkg/sentry/devices/nvproxy/nvconf"
-	pb "gvisor.dev/gvisor/tools/ioctl_sniffer/ioctl_go_proto"
+	"github.com/wilinz/gvisor/pkg/abi/linux"
+	"github.com/wilinz/gvisor/pkg/abi/nvgpu"
+	"github.com/wilinz/gvisor/pkg/log"
+	"github.com/wilinz/gvisor/pkg/sentry/devices/nvproxy"
+	"github.com/wilinz/gvisor/pkg/sentry/devices/nvproxy/nvconf"
+	pb "github.com/wilinz/gvisor/tools/ioctl_sniffer/ioctl_go_proto"
 )
 
 var (

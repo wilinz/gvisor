@@ -20,11 +20,11 @@ import (
 	"strings"
 
 	specs "github.com/opencontainers/runtime-spec/specs-go"
-	"gvisor.dev/gvisor/pkg/log"
-	"gvisor.dev/gvisor/pkg/sentry/fsimpl/erofs"
-	"gvisor.dev/gvisor/pkg/sentry/fsimpl/tmpfs"
-	"gvisor.dev/gvisor/runsc/config"
-	"gvisor.dev/gvisor/runsc/specutils"
+	"github.com/wilinz/gvisor/pkg/log"
+	"github.com/wilinz/gvisor/pkg/sentry/fsimpl/erofs"
+	"github.com/wilinz/gvisor/pkg/sentry/fsimpl/tmpfs"
+	"github.com/wilinz/gvisor/runsc/config"
+	"github.com/wilinz/gvisor/runsc/specutils"
 )
 
 const (

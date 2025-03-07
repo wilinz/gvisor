@@ -18,8 +18,8 @@
 package plugin
 
 import (
-	"gvisor.dev/gvisor/pkg/sentry/inet"
-	"gvisor.dev/gvisor/pkg/waiter"
+	"github.com/wilinz/gvisor/pkg/sentry/inet"
+	"github.com/wilinz/gvisor/pkg/waiter"
 )
 
 // PluginStack defines a set of stack operations to work with a third-party

@@ -22,8 +22,8 @@ import (
 	"path"
 	"regexp"
 
-	"gvisor.dev/gvisor/pkg/eventfd"
-	"gvisor.dev/gvisor/pkg/log"
+	"github.com/wilinz/gvisor/pkg/eventfd"
+	"github.com/wilinz/gvisor/pkg/log"
 )
 
 // ReadTransparentHugepageEnum returns the currently selected option for

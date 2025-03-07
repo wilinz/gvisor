@@ -22,8 +22,8 @@ import (
 	"os"
 	"os/exec"
 
-	"gvisor.dev/gvisor/pkg/log"
-	"gvisor.dev/gvisor/tools/ioctl_sniffer/sniffer"
+	"github.com/wilinz/gvisor/pkg/log"
+	"github.com/wilinz/gvisor/tools/ioctl_sniffer/sniffer"
 
 	_ "embed" // Necessary to use go:embed.
 )

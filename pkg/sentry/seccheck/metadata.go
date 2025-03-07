@@ -19,8 +19,8 @@ import (
 	"os"
 	"path"
 
-	"gvisor.dev/gvisor/pkg/fd"
-	"gvisor.dev/gvisor/pkg/sync"
+	"github.com/wilinz/gvisor/pkg/fd"
+	"github.com/wilinz/gvisor/pkg/sync"
 )
 
 // PointX represents the checkpoint X.

@@ -18,8 +18,8 @@ import (
 	"testing"
 	"time"
 
-	"gvisor.dev/gvisor/pkg/sleep"
-	"gvisor.dev/gvisor/pkg/tcpip/faketime"
+	"github.com/wilinz/gvisor/pkg/sleep"
+	"github.com/wilinz/gvisor/pkg/tcpip/faketime"
 )
 
 func TestCleanup(t *testing.T) {

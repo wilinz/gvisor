@@ -25,9 +25,9 @@ import (
 	"testing"
 	"time"
 
-	k8s "gvisor.dev/gvisor/test/kubernetes"
-	"gvisor.dev/gvisor/test/kubernetes/benchmetric"
-	"gvisor.dev/gvisor/test/kubernetes/testcluster"
+	k8s "github.com/wilinz/gvisor/test/kubernetes"
+	"github.com/wilinz/gvisor/test/kubernetes/benchmetric"
+	"github.com/wilinz/gvisor/test/kubernetes/testcluster"
 	v13 "k8s.io/api/core/v1"
 	"k8s.io/apimachinery/pkg/api/resource"
 	"k8s.io/apimachinery/pkg/apis/meta/v1"

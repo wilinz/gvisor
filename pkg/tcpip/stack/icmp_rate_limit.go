@@ -16,7 +16,7 @@ package stack
 
 import (
 	"golang.org/x/time/rate"
-	"gvisor.dev/gvisor/pkg/tcpip"
+	"github.com/wilinz/gvisor/pkg/tcpip"
 )
 
 const (

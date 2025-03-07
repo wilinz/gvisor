@@ -18,7 +18,7 @@
 package systrap
 
 import (
-	"gvisor.dev/gvisor/pkg/metric"
+	"github.com/wilinz/gvisor/pkg/metric"
 )
 
 // SystrapProfiling is a builder that produces conditionally compiled metrics.

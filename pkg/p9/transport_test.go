@@ -18,8 +18,8 @@ import (
 	"os"
 	"testing"
 
-	"gvisor.dev/gvisor/pkg/fd"
-	"gvisor.dev/gvisor/pkg/unet"
+	"github.com/wilinz/gvisor/pkg/fd"
+	"github.com/wilinz/gvisor/pkg/unet"
 )
 
 const (

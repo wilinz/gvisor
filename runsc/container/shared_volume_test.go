@@ -22,10 +22,10 @@ import (
 	"path/filepath"
 	"testing"
 
-	"gvisor.dev/gvisor/pkg/sentry/control"
-	"gvisor.dev/gvisor/pkg/sentry/kernel/auth"
-	"gvisor.dev/gvisor/pkg/test/testutil"
-	"gvisor.dev/gvisor/runsc/config"
+	"github.com/wilinz/gvisor/pkg/sentry/control"
+	"github.com/wilinz/gvisor/pkg/sentry/kernel/auth"
+	"github.com/wilinz/gvisor/pkg/test/testutil"
+	"github.com/wilinz/gvisor/runsc/config"
 )
 
 // TestSharedVolume checks that modifications to a volume mount are propagated

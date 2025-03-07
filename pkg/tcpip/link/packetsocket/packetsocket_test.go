@@ -19,11 +19,11 @@ import (
 	"os"
 	"testing"
 
-	"gvisor.dev/gvisor/pkg/refs"
-	"gvisor.dev/gvisor/pkg/tcpip"
-	"gvisor.dev/gvisor/pkg/tcpip/header"
-	"gvisor.dev/gvisor/pkg/tcpip/link/packetsocket"
-	"gvisor.dev/gvisor/pkg/tcpip/stack"
+	"github.com/wilinz/gvisor/pkg/refs"
+	"github.com/wilinz/gvisor/pkg/tcpip"
+	"github.com/wilinz/gvisor/pkg/tcpip/header"
+	"github.com/wilinz/gvisor/pkg/tcpip/link/packetsocket"
+	"github.com/wilinz/gvisor/pkg/tcpip/stack"
 )
 
 var _ stack.LinkEndpoint = (*nullEndpoint)(nil)

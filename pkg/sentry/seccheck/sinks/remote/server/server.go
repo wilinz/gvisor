@@ -24,12 +24,12 @@ import (
 
 	"golang.org/x/sys/unix"
 	"google.golang.org/protobuf/proto"
-	"gvisor.dev/gvisor/pkg/cleanup"
-	"gvisor.dev/gvisor/pkg/log"
-	pb "gvisor.dev/gvisor/pkg/sentry/seccheck/points/points_go_proto"
-	"gvisor.dev/gvisor/pkg/sentry/seccheck/sinks/remote/wire"
-	"gvisor.dev/gvisor/pkg/sync"
-	"gvisor.dev/gvisor/pkg/unet"
+	"github.com/wilinz/gvisor/pkg/cleanup"
+	"github.com/wilinz/gvisor/pkg/log"
+	pb "github.com/wilinz/gvisor/pkg/sentry/seccheck/points/points_go_proto"
+	"github.com/wilinz/gvisor/pkg/sentry/seccheck/sinks/remote/wire"
+	"github.com/wilinz/gvisor/pkg/sync"
+	"github.com/wilinz/gvisor/pkg/unet"
 )
 
 // ClientHandler is used to interface with client that connect to the server.

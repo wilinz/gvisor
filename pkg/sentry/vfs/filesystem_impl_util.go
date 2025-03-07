@@ -17,8 +17,8 @@ package vfs
 import (
 	"strings"
 
-	"gvisor.dev/gvisor/pkg/abi/linux"
-	"gvisor.dev/gvisor/pkg/hostarch"
+	"github.com/wilinz/gvisor/pkg/abi/linux"
+	"github.com/wilinz/gvisor/pkg/hostarch"
 )
 
 // GenericParseMountOptions parses a comma-separated list of options of the
@@ -26,7 +26,7 @@ import (
 // returns it as a map. If str contains duplicate keys, then the last value
 // wins. For example:
 //
-// str = "key0=value0,key1,key2=value2,key0=value3" -> map{'key0':'value3','key1':â€,'key2':'value2'}
+// str = "key0=value0,key1,key2=value2,key0=value3" -> map{'key0':'value3','key1':â€?'key2':'value2'}
 //
 // GenericParseMountOptions is not appropriate if values may contain commas,
 // e.g. in the case of the mpol mount option for tmpfs(5).

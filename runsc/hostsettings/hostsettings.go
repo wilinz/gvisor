@@ -22,9 +22,9 @@ import (
 	"strconv"
 	"strings"
 
-	"gvisor.dev/gvisor/pkg/log"
-	"gvisor.dev/gvisor/pkg/sentry/hostmm"
-	"gvisor.dev/gvisor/runsc/config"
+	"github.com/wilinz/gvisor/pkg/log"
+	"github.com/wilinz/gvisor/pkg/sentry/hostmm"
+	"github.com/wilinz/gvisor/runsc/config"
 )
 
 // Handle deals with host settings according to the given policy.

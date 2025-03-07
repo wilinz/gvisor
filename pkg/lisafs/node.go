@@ -15,10 +15,10 @@
 package lisafs
 
 import (
-	"gvisor.dev/gvisor/pkg/atomicbitops"
-	"gvisor.dev/gvisor/pkg/context"
-	"gvisor.dev/gvisor/pkg/fspath"
-	"gvisor.dev/gvisor/pkg/sync"
+	"github.com/wilinz/gvisor/pkg/atomicbitops"
+	"github.com/wilinz/gvisor/pkg/context"
+	"github.com/wilinz/gvisor/pkg/fspath"
+	"github.com/wilinz/gvisor/pkg/sync"
 )
 
 // numStaticChildren is the number of static children tracked by each node.

@@ -19,10 +19,10 @@ import (
 	"os"
 
 	"golang.org/x/sys/unix"
-	"gvisor.dev/gvisor/pkg/atomicbitops"
-	"gvisor.dev/gvisor/pkg/bits"
-	"gvisor.dev/gvisor/pkg/memutil"
-	"gvisor.dev/gvisor/pkg/sync"
+	"github.com/wilinz/gvisor/pkg/atomicbitops"
+	"github.com/wilinz/gvisor/pkg/bits"
+	"github.com/wilinz/gvisor/pkg/memutil"
+	"github.com/wilinz/gvisor/pkg/sync"
 )
 
 // MemoryKind represents a type of memory used by the application.

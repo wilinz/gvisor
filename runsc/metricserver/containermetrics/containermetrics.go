@@ -22,9 +22,9 @@ import (
 	"io"
 	"strconv"
 
-	"gvisor.dev/gvisor/pkg/prometheus"
-	"gvisor.dev/gvisor/runsc/container"
-	"gvisor.dev/gvisor/runsc/specutils"
+	"github.com/wilinz/gvisor/pkg/prometheus"
+	"github.com/wilinz/gvisor/runsc/container"
+	"github.com/wilinz/gvisor/runsc/specutils"
 )
 
 // SandboxPrometheusLabels returns a set of Prometheus labels that identifies the sandbox running

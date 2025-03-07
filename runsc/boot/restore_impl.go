@@ -19,8 +19,8 @@ package boot
 
 import (
 	specs "github.com/opencontainers/runtime-spec/specs-go"
-	"gvisor.dev/gvisor/pkg/sentry/control"
-	"gvisor.dev/gvisor/pkg/sentry/fsimpl/proc"
+	"github.com/wilinz/gvisor/pkg/sentry/control"
+	"github.com/wilinz/gvisor/pkg/sentry/fsimpl/proc"
 )
 
 func preSaveImpl(*Loader, *control.SaveOpts) error {

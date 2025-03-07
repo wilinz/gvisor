@@ -18,7 +18,7 @@ import (
 	"context"
 	"time"
 
-	"gvisor.dev/gvisor/pkg/tcpip/stack"
+	"github.com/wilinz/gvisor/pkg/tcpip/stack"
 )
 
 func (s *sock) saveTimestamp() int64 {

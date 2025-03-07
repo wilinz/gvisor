@@ -23,11 +23,11 @@ import (
 
 	specs "github.com/opencontainers/runtime-spec/specs-go"
 	"golang.org/x/sys/unix"
-	"gvisor.dev/gvisor/pkg/abi/tpu"
-	"gvisor.dev/gvisor/pkg/log"
-	"gvisor.dev/gvisor/runsc/cmd/util"
-	"gvisor.dev/gvisor/runsc/config"
-	"gvisor.dev/gvisor/runsc/specutils"
+	"github.com/wilinz/gvisor/pkg/abi/tpu"
+	"github.com/wilinz/gvisor/pkg/log"
+	"github.com/wilinz/gvisor/runsc/cmd/util"
+	"github.com/wilinz/gvisor/runsc/config"
+	"github.com/wilinz/gvisor/runsc/specutils"
 )
 
 // mountInChroot creates the destination mount point in the given chroot and

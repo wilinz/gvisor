@@ -20,7 +20,7 @@ import (
 	"fmt"
 
 	"github.com/containerd/console"
-	"gvisor.dev/gvisor/pkg/shim/v1/extension"
+	"github.com/wilinz/gvisor/pkg/shim/v1/extension"
 )
 
 type execState interface {

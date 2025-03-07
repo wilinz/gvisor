@@ -20,9 +20,9 @@ import (
 	"sync"
 	"testing"
 
-	"gvisor.dev/gvisor/pkg/sentry/contexttest"
-	"gvisor.dev/gvisor/pkg/tcpip"
-	"gvisor.dev/gvisor/pkg/waiter"
+	"github.com/wilinz/gvisor/pkg/sentry/contexttest"
+	"github.com/wilinz/gvisor/pkg/tcpip"
+	"github.com/wilinz/gvisor/pkg/waiter"
 )
 
 type baseTCPEndpointImpl struct {

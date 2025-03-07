@@ -27,7 +27,7 @@ import (
 
 	"github.com/google/subcommands"
 	"golang.org/x/sys/unix"
-	"gvisor.dev/gvisor/runsc/flag"
+	"github.com/wilinz/gvisor/runsc/flag"
 )
 
 func fatalf(s string, args ...any) {

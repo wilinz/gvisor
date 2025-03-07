@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"testing"
 
-	"gvisor.dev/gvisor/pkg/test/dockerutil"
+	"github.com/wilinz/gvisor/pkg/test/dockerutil"
 )
 
 // runNCCL runs the given script and command in a NCCL container.

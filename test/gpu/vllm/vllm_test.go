@@ -27,8 +27,8 @@ import (
 	"time"
 
 	"github.com/docker/docker/api/types/mount"
-	"gvisor.dev/gvisor/pkg/test/dockerutil"
-	"gvisor.dev/gvisor/test/benchmarks/harness"
+	"github.com/wilinz/gvisor/pkg/test/dockerutil"
+	"github.com/wilinz/gvisor/test/benchmarks/harness"
 )
 
 // BenchmarkVLLM runs a vLLM workload.

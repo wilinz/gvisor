@@ -21,7 +21,7 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
-	"gvisor.dev/gvisor/runsc/flag"
+	"github.com/wilinz/gvisor/runsc/flag"
 )
 
 func TestDefault(t *testing.T) {

@@ -25,7 +25,7 @@ import (
 	"time"
 
 	"google.golang.org/protobuf/proto"
-	pb "gvisor.dev/gvisor/tools/ioctl_sniffer/ioctl_go_proto"
+	pb "github.com/wilinz/gvisor/tools/ioctl_sniffer/ioctl_go_proto"
 )
 
 // Connection is a connection to the sniffer hook.

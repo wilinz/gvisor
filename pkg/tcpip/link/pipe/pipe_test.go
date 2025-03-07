@@ -16,7 +16,7 @@ package pipe
 import (
 	"testing"
 
-	"gvisor.dev/gvisor/pkg/tcpip"
+	"github.com/wilinz/gvisor/pkg/tcpip"
 )
 
 func TestSetAddress(t *testing.T) {

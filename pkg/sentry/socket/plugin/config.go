@@ -16,7 +16,7 @@ package plugin
 
 import (
 	"golang.org/x/sys/unix"
-	"gvisor.dev/gvisor/pkg/seccomp"
+	"github.com/wilinz/gvisor/pkg/seccomp"
 )
 
 // SeccompFilters defines seccomp allowed rules that are needed by cgo.

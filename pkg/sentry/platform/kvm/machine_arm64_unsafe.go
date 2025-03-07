@@ -23,13 +23,13 @@ import (
 	"unsafe"
 
 	"golang.org/x/sys/unix"
-	"gvisor.dev/gvisor/pkg/abi/linux"
-	"gvisor.dev/gvisor/pkg/hostarch"
-	"gvisor.dev/gvisor/pkg/hostsyscall"
-	"gvisor.dev/gvisor/pkg/ring0"
-	"gvisor.dev/gvisor/pkg/ring0/pagetables"
-	"gvisor.dev/gvisor/pkg/sentry/platform"
-	ktime "gvisor.dev/gvisor/pkg/sentry/time"
+	"github.com/wilinz/gvisor/pkg/abi/linux"
+	"github.com/wilinz/gvisor/pkg/hostarch"
+	"github.com/wilinz/gvisor/pkg/hostsyscall"
+	"github.com/wilinz/gvisor/pkg/ring0"
+	"github.com/wilinz/gvisor/pkg/ring0/pagetables"
+	"github.com/wilinz/gvisor/pkg/sentry/platform"
+	ktime "github.com/wilinz/gvisor/pkg/sentry/time"
 )
 
 type kvmVcpuInit struct {

@@ -25,11 +25,11 @@ import (
 
 	"golang.org/x/sync/errgroup"
 	"google.golang.org/protobuf/encoding/prototext"
-	"gvisor.dev/gvisor/runsc/flag"
-	"gvisor.dev/gvisor/test/kubernetes/k8sctx"
-	testpb "gvisor.dev/gvisor/test/kubernetes/test_range_config_go_proto"
-	"gvisor.dev/gvisor/test/kubernetes/testcluster"
-	"gvisor.dev/gvisor/tools/gvisor_k8s_tool/provider/kubectl"
+	"github.com/wilinz/gvisor/runsc/flag"
+	"github.com/wilinz/gvisor/test/kubernetes/k8sctx"
+	testpb "github.com/wilinz/gvisor/test/kubernetes/test_range_config_go_proto"
+	"github.com/wilinz/gvisor/test/kubernetes/testcluster"
+	"github.com/wilinz/gvisor/tools/gvisor_k8s_tool/provider/kubectl"
 	"k8s.io/client-go/kubernetes"
 	"k8s.io/client-go/tools/clientcmd"
 )

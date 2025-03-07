@@ -21,7 +21,7 @@ import (
 	"fmt"
 
 	"golang.org/x/sys/unix"
-	"gvisor.dev/gvisor/pkg/hostsyscall"
+	"github.com/wilinz/gvisor/pkg/hostsyscall"
 )
 
 var (

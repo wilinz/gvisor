@@ -17,10 +17,10 @@ package devpts
 import (
 	"testing"
 
-	"gvisor.dev/gvisor/pkg/abi/linux"
-	"gvisor.dev/gvisor/pkg/sentry/contexttest"
-	"gvisor.dev/gvisor/pkg/usermem"
-	"gvisor.dev/gvisor/pkg/waiter"
+	"github.com/wilinz/gvisor/pkg/abi/linux"
+	"github.com/wilinz/gvisor/pkg/sentry/contexttest"
+	"github.com/wilinz/gvisor/pkg/usermem"
+	"github.com/wilinz/gvisor/pkg/waiter"
 )
 
 func TestSimpleMasterToReplica(t *testing.T) {

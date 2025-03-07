@@ -16,8 +16,8 @@ package host
 
 import (
 	"golang.org/x/sys/unix"
-	"gvisor.dev/gvisor/pkg/abi/linux"
-	"gvisor.dev/gvisor/pkg/errors/linuxerr"
+	"github.com/wilinz/gvisor/pkg/abi/linux"
+	"github.com/wilinz/gvisor/pkg/errors/linuxerr"
 )
 
 func toTimespec(ts linux.StatxTimestamp, omit bool) unix.Timespec {

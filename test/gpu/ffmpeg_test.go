@@ -18,7 +18,7 @@ import (
 	"strings"
 	"testing"
 
-	"gvisor.dev/gvisor/pkg/test/dockerutil"
+	"github.com/wilinz/gvisor/pkg/test/dockerutil"
 )
 
 // TestFffmpegEncodeGPU runs ffmpeg in a GPU container using NVENC.

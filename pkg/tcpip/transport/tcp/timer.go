@@ -17,7 +17,7 @@ package tcp
 import (
 	"time"
 
-	"gvisor.dev/gvisor/pkg/tcpip"
+	"github.com/wilinz/gvisor/pkg/tcpip"
 )
 
 type timerState int

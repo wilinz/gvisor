@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"time"
 
-	"gvisor.dev/gvisor/pkg/atomicbitops"
+	"github.com/wilinz/gvisor/pkg/atomicbitops"
 )
 
 func Example_ioReadinessInterrputible() {

@@ -22,7 +22,7 @@ import (
 
 	specs "github.com/opencontainers/runtime-spec/specs-go"
 	"golang.org/x/sys/unix"
-	"gvisor.dev/gvisor/pkg/urpc"
+	"github.com/wilinz/gvisor/pkg/urpc"
 )
 
 type openMountRequest struct {

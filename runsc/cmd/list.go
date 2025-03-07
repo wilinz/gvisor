@@ -25,11 +25,11 @@ import (
 
 	"github.com/google/subcommands"
 	specs "github.com/opencontainers/runtime-spec/specs-go"
-	"gvisor.dev/gvisor/pkg/log"
-	"gvisor.dev/gvisor/runsc/cmd/util"
-	"gvisor.dev/gvisor/runsc/config"
-	"gvisor.dev/gvisor/runsc/container"
-	"gvisor.dev/gvisor/runsc/flag"
+	"github.com/wilinz/gvisor/pkg/log"
+	"github.com/wilinz/gvisor/runsc/cmd/util"
+	"github.com/wilinz/gvisor/runsc/config"
+	"github.com/wilinz/gvisor/runsc/container"
+	"github.com/wilinz/gvisor/runsc/flag"
 )
 
 // List implements subcommands.Command for the "list" command.

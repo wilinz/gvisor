@@ -15,9 +15,9 @@
 package netstack
 
 import (
-	"gvisor.dev/gvisor/pkg/abi/linux"
-	"gvisor.dev/gvisor/pkg/errors/linuxerr"
-	"gvisor.dev/gvisor/pkg/tcpip/link/tun"
+	"github.com/wilinz/gvisor/pkg/abi/linux"
+	"github.com/wilinz/gvisor/pkg/errors/linuxerr"
+	"github.com/wilinz/gvisor/pkg/tcpip/link/tun"
 )
 
 // TUNFlagsToLinux converts a tun.Flags to Linux TUN flags.

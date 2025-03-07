@@ -17,7 +17,7 @@ package testutil
 import (
 	"testing"
 
-	"gvisor.dev/gvisor/pkg/tcpip"
+	"github.com/wilinz/gvisor/pkg/tcpip"
 )
 
 // Who tests the testutils?

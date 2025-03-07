@@ -18,7 +18,7 @@ import (
 	"context"
 	"testing"
 
-	"gvisor.dev/gvisor/test/kubernetes/k8sctx/kubectlctx"
+	"github.com/wilinz/gvisor/test/kubernetes/k8sctx/kubectlctx"
 )
 
 // TestHello tests that a trivial alpine container runs correctly.

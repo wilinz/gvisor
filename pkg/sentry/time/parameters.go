@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"time"
 
-	"gvisor.dev/gvisor/pkg/log"
+	"github.com/wilinz/gvisor/pkg/log"
 )
 
 const (

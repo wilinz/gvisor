@@ -26,7 +26,7 @@ import (
 	"path/filepath"
 	"strconv"
 
-	"gvisor.dev/gvisor/tools/constraintutil"
+	"github.com/wilinz/gvisor/tools/constraintutil"
 )
 
 var (

@@ -16,15 +16,15 @@
 package msgqueue
 
 import (
-	"gvisor.dev/gvisor/pkg/abi/linux"
-	"gvisor.dev/gvisor/pkg/context"
-	"gvisor.dev/gvisor/pkg/errors/linuxerr"
-	"gvisor.dev/gvisor/pkg/sentry/kernel/auth"
-	"gvisor.dev/gvisor/pkg/sentry/kernel/ipc"
-	"gvisor.dev/gvisor/pkg/sentry/ktime"
-	"gvisor.dev/gvisor/pkg/sentry/vfs"
-	"gvisor.dev/gvisor/pkg/sync"
-	"gvisor.dev/gvisor/pkg/waiter"
+	"github.com/wilinz/gvisor/pkg/abi/linux"
+	"github.com/wilinz/gvisor/pkg/context"
+	"github.com/wilinz/gvisor/pkg/errors/linuxerr"
+	"github.com/wilinz/gvisor/pkg/sentry/kernel/auth"
+	"github.com/wilinz/gvisor/pkg/sentry/kernel/ipc"
+	"github.com/wilinz/gvisor/pkg/sentry/ktime"
+	"github.com/wilinz/gvisor/pkg/sentry/vfs"
+	"github.com/wilinz/gvisor/pkg/sync"
+	"github.com/wilinz/gvisor/pkg/waiter"
 )
 
 const (
@@ -323,11 +323,11 @@ func (q *Queue) push(ctx context.Context, m Message, creds *auth.Credentials, pi
 	// "A message queue is considered to be full if either of the following
 	// conditions is true:
 	//
-	//  â€¢ Adding a new message to the queue would cause the total number
+	//  â€?Adding a new message to the queue would cause the total number
 	//    of bytes in the queue to exceed the queue's maximum size (the
 	//    msg_qbytes field).
 	//
-	//  â€¢ Adding another message to the queue would cause the total
+	//  â€?Adding another message to the queue would cause the total
 	//    number of messages in the queue to exceed the queue's maximum
 	//    size (the msg_qbytes field).  This check is necessary to
 	//    prevent an unlimited number of zero-length messages being

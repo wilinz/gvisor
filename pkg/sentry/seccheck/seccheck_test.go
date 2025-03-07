@@ -19,9 +19,9 @@ import (
 	"os"
 	"testing"
 
-	"gvisor.dev/gvisor/pkg/context"
-	"gvisor.dev/gvisor/pkg/fd"
-	pb "gvisor.dev/gvisor/pkg/sentry/seccheck/points/points_go_proto"
+	"github.com/wilinz/gvisor/pkg/context"
+	"github.com/wilinz/gvisor/pkg/fd"
+	pb "github.com/wilinz/gvisor/pkg/sentry/seccheck/points/points_go_proto"
 )
 
 type testSink struct {

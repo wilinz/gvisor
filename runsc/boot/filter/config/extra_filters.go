@@ -17,7 +17,7 @@
 package config
 
 import (
-	"gvisor.dev/gvisor/pkg/seccomp"
+	"github.com/wilinz/gvisor/pkg/seccomp"
 )
 
 // instrumentationFilters returns additional filters for syscalls used by

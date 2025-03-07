@@ -19,7 +19,7 @@ import (
 	"reflect"
 	"testing"
 
-	"gvisor.dev/gvisor/pkg/hostos"
+	"github.com/wilinz/gvisor/pkg/hostos"
 )
 
 func TestEnable(t *testing.T) {

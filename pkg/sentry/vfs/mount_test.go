@@ -19,7 +19,7 @@ import (
 	"runtime"
 	"testing"
 
-	"gvisor.dev/gvisor/pkg/sync"
+	"github.com/wilinz/gvisor/pkg/sync"
 )
 
 func TestMountTableLookupEmpty(t *testing.T) {

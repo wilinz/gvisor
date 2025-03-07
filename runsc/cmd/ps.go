@@ -19,11 +19,11 @@ import (
 	"fmt"
 
 	"github.com/google/subcommands"
-	"gvisor.dev/gvisor/pkg/sentry/control"
-	"gvisor.dev/gvisor/runsc/cmd/util"
-	"gvisor.dev/gvisor/runsc/config"
-	"gvisor.dev/gvisor/runsc/container"
-	"gvisor.dev/gvisor/runsc/flag"
+	"github.com/wilinz/gvisor/pkg/sentry/control"
+	"github.com/wilinz/gvisor/runsc/cmd/util"
+	"github.com/wilinz/gvisor/runsc/config"
+	"github.com/wilinz/gvisor/runsc/container"
+	"github.com/wilinz/gvisor/runsc/flag"
 )
 
 // PS implements subcommands.Command for the "ps" command.

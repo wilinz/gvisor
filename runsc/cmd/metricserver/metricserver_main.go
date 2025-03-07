@@ -21,12 +21,12 @@ import (
 	"os"
 
 	"github.com/google/subcommands"
-	"gvisor.dev/gvisor/pkg/log"
-	"gvisor.dev/gvisor/runsc/cmd/metricserver/metricservercmd"
-	"gvisor.dev/gvisor/runsc/cmd/util"
-	"gvisor.dev/gvisor/runsc/config"
-	"gvisor.dev/gvisor/runsc/flag"
-	"gvisor.dev/gvisor/runsc/metricserver"
+	"github.com/wilinz/gvisor/pkg/log"
+	"github.com/wilinz/gvisor/runsc/cmd/metricserver/metricservercmd"
+	"github.com/wilinz/gvisor/runsc/cmd/util"
+	"github.com/wilinz/gvisor/runsc/config"
+	"github.com/wilinz/gvisor/runsc/flag"
+	"github.com/wilinz/gvisor/runsc/metricserver"
 )
 
 // cmd implements subcommands.Command for the "metric-server" command.

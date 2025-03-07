@@ -22,11 +22,11 @@ import (
 	"time"
 
 	"github.com/docker/docker/api/types"
-	"gvisor.dev/gvisor/pkg/test/dockerutil"
-	"gvisor.dev/gvisor/test/benchmarks/base"
-	"gvisor.dev/gvisor/test/benchmarks/harness"
-	"gvisor.dev/gvisor/test/benchmarks/tools"
-	"gvisor.dev/gvisor/test/metricsviz"
+	"github.com/wilinz/gvisor/pkg/test/dockerutil"
+	"github.com/wilinz/gvisor/test/benchmarks/base"
+	"github.com/wilinz/gvisor/test/benchmarks/harness"
+	"github.com/wilinz/gvisor/test/benchmarks/tools"
+	"github.com/wilinz/gvisor/test/metricsviz"
 )
 
 // BenchmarkSizeEmpty creates N alpine containers and reads memory usage using `docker stats`.

@@ -25,8 +25,8 @@ import (
 	"unsafe"
 
 	"golang.org/x/sys/unix"
-	"gvisor.dev/gvisor/pkg/hostsyscall"
-	"gvisor.dev/gvisor/pkg/sentry/arch"
+	"github.com/wilinz/gvisor/pkg/hostsyscall"
+	"github.com/wilinz/gvisor/pkg/sentry/arch"
 )
 
 //go:linkname throw runtime.throw

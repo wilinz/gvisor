@@ -20,8 +20,8 @@ import (
 	"os"
 	"os/exec"
 
-	"gvisor.dev/gvisor/pkg/sentry/devices/nvproxy"
-	"gvisor.dev/gvisor/pkg/sentry/devices/nvproxy/nvconf"
+	"github.com/wilinz/gvisor/pkg/sentry/devices/nvproxy"
+	"github.com/wilinz/gvisor/pkg/sentry/devices/nvproxy/nvconf"
 )
 
 // ParserFile is a wrapper around the driver_ast_parser binary.

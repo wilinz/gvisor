@@ -24,8 +24,8 @@ import (
 	"reflect"
 	"testing"
 
-	"gvisor.dev/gvisor/pkg/state"
-	"gvisor.dev/gvisor/pkg/state/pretty"
+	"github.com/wilinz/gvisor/pkg/state"
+	"github.com/wilinz/gvisor/pkg/state/pretty"
 )
 
 // checkEqual checks if two objects are equal.

@@ -24,8 +24,8 @@ import (
 	"strings"
 
 	"github.com/gofrs/flock"
-	"gvisor.dev/gvisor/pkg/log"
-	"gvisor.dev/gvisor/pkg/sync"
+	"github.com/wilinz/gvisor/pkg/log"
+	"github.com/wilinz/gvisor/pkg/sync"
 )
 
 const stateFileExtension = "state"

@@ -22,8 +22,8 @@ import (
 	"runtime"
 
 	"golang.org/x/sys/unix"
-	"gvisor.dev/gvisor/pkg/hostsyscall"
-	"gvisor.dev/gvisor/pkg/sentry/arch"
+	"github.com/wilinz/gvisor/pkg/hostsyscall"
+	"github.com/wilinz/gvisor/pkg/sentry/arch"
 )
 
 func (t *syscallThread) detach() {

@@ -17,8 +17,8 @@ package locking
 import (
 	"reflect"
 
-	"gvisor.dev/gvisor/pkg/sync"
-	"gvisor.dev/gvisor/pkg/sync/locking"
+	"github.com/wilinz/gvisor/pkg/sync"
+	"github.com/wilinz/gvisor/pkg/sync/locking"
 )
 
 // RWMutex is sync.RWMutex with the correctness validator.

@@ -18,10 +18,10 @@ import (
 	"os"
 
 	"golang.org/x/sys/unix"
-	"gvisor.dev/gvisor/pkg/abi/linux"
-	"gvisor.dev/gvisor/pkg/seccomp"
-	"gvisor.dev/gvisor/pkg/seccomp/precompiledseccomp"
-	"gvisor.dev/gvisor/pkg/sentry/platform"
+	"github.com/wilinz/gvisor/pkg/abi/linux"
+	"github.com/wilinz/gvisor/pkg/seccomp"
+	"github.com/wilinz/gvisor/pkg/seccomp/precompiledseccomp"
+	"github.com/wilinz/gvisor/pkg/sentry/platform"
 )
 
 // sysmsgThreadPriorityVarName is the seccomp filter variable name used to

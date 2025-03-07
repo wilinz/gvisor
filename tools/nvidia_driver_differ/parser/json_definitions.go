@@ -22,7 +22,7 @@ import (
 	"strings"
 
 	"github.com/google/go-cmp/cmp"
-	"gvisor.dev/gvisor/pkg/sentry/devices/nvproxy"
+	"github.com/wilinz/gvisor/pkg/sentry/devices/nvproxy"
 )
 
 // InputJSON is the format for the structs.json file that driver_ast_parser takes as input.

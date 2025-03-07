@@ -22,7 +22,7 @@ import (
 	"strconv"
 	"strings"
 
-	"gvisor.dev/gvisor/pkg/abi/linux"
+	"github.com/wilinz/gvisor/pkg/abi/linux"
 )
 
 // SyntaxError is an interpretation error due to incorrect syntax.

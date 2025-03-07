@@ -26,8 +26,8 @@ import (
 	"strings"
 
 	"github.com/google/pprof/profile"
-	"gvisor.dev/gvisor/pkg/log"
-	"gvisor.dev/gvisor/runsc/flag"
+	"github.com/wilinz/gvisor/pkg/log"
+	"github.com/wilinz/gvisor/runsc/flag"
 )
 
 var (

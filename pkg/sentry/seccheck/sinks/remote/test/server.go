@@ -19,10 +19,10 @@ import (
 	"os"
 	"path/filepath"
 
-	pb "gvisor.dev/gvisor/pkg/sentry/seccheck/points/points_go_proto"
-	"gvisor.dev/gvisor/pkg/sentry/seccheck/sinks/remote/server"
-	"gvisor.dev/gvisor/pkg/sentry/seccheck/sinks/remote/wire"
-	"gvisor.dev/gvisor/pkg/sync"
+	pb "github.com/wilinz/gvisor/pkg/sentry/seccheck/points/points_go_proto"
+	"github.com/wilinz/gvisor/pkg/sentry/seccheck/sinks/remote/server"
+	"github.com/wilinz/gvisor/pkg/sentry/seccheck/sinks/remote/wire"
+	"github.com/wilinz/gvisor/pkg/sync"
 )
 
 // Server is the counterpart to the sinks.Remote. It receives connections

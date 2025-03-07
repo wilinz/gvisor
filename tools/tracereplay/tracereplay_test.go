@@ -20,7 +20,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"gvisor.dev/gvisor/pkg/test/testutil"
+	"github.com/wilinz/gvisor/pkg/test/testutil"
 )
 
 // TestBasic uses a pre-generated file that is replayed into a save process.

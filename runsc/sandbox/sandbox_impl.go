@@ -18,8 +18,8 @@
 package sandbox
 
 import (
-	"gvisor.dev/gvisor/runsc/config"
-	"gvisor.dev/gvisor/runsc/donation"
+	"github.com/wilinz/gvisor/runsc/config"
+	"github.com/wilinz/gvisor/runsc/donation"
 )
 
 func createSandboxProcessExtra(conf *config.Config, args *Args, donations *donation.Agency) error {

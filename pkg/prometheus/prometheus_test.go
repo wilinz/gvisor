@@ -34,7 +34,7 @@ import (
 	"google.golang.org/protobuf/proto"
 	"google.golang.org/protobuf/reflect/protoreflect"
 	"google.golang.org/protobuf/testing/protocmp"
-	pb "gvisor.dev/gvisor/pkg/metric/metric_go_proto"
+	pb "github.com/wilinz/gvisor/pkg/metric/metric_go_proto"
 )
 
 // timeNowMu is used to synchronize injection of time.Now.

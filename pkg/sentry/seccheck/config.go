@@ -19,9 +19,9 @@ import (
 	"os"
 	"sync"
 
-	"gvisor.dev/gvisor/pkg/fd"
-	"gvisor.dev/gvisor/pkg/log"
-	"gvisor.dev/gvisor/pkg/metric"
+	"github.com/wilinz/gvisor/pkg/fd"
+	"github.com/wilinz/gvisor/pkg/log"
+	"github.com/wilinz/gvisor/pkg/metric"
 )
 
 // DefaultSessionName is the name of the only session that can exist in the

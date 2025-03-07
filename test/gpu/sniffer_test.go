@@ -23,7 +23,7 @@ import (
 	"testing"
 	"time"
 
-	"gvisor.dev/gvisor/pkg/test/dockerutil"
+	"github.com/wilinz/gvisor/pkg/test/dockerutil"
 )
 
 const maxDuration = 1 * time.Minute

@@ -23,13 +23,13 @@ import (
 	"strconv"
 	"strings"
 
-	"gvisor.dev/gvisor/pkg/abi/linux"
-	"gvisor.dev/gvisor/pkg/context"
-	"gvisor.dev/gvisor/pkg/fspath"
-	"gvisor.dev/gvisor/pkg/log"
-	"gvisor.dev/gvisor/pkg/sentry/kernel/auth"
-	"gvisor.dev/gvisor/pkg/sentry/vfs"
-	"gvisor.dev/gvisor/pkg/usermem"
+	"github.com/wilinz/gvisor/pkg/abi/linux"
+	"github.com/wilinz/gvisor/pkg/context"
+	"github.com/wilinz/gvisor/pkg/fspath"
+	"github.com/wilinz/gvisor/pkg/log"
+	"github.com/wilinz/gvisor/pkg/sentry/kernel/auth"
+	"github.com/wilinz/gvisor/pkg/sentry/vfs"
+	"github.com/wilinz/gvisor/pkg/usermem"
 )
 
 const (
@@ -133,7 +133,7 @@ func findHomeInPasswd(uid uint32, passwd io.Reader, defaultHome string) (string,
 		//
 		// Per 'man 5 passwd'
 		// /etc/passwd contains one line for each user account, with seven
-		// fields delimited by colons (‚Äú:‚Äù). These fields are:
+		// fields delimited by colons (‚Ä?‚Ä?. These fields are:
 		//
 		//	- login name
 		//	- optional encrypted password
@@ -237,7 +237,7 @@ func FindUIDGIDInPasswd(passwd io.Reader, user string) (auth.KUID, auth.KGID) {
 
 	// Per 'man 5 passwd'
 	// /etc/passwd contains one line for each user account, with seven
-	// fields delimited by colons (‚Äú:‚Äù). These fields are:
+	// fields delimited by colons (‚Ä?‚Ä?. These fields are:
 	//
 	//	- login name
 	//	- optional encrypted password

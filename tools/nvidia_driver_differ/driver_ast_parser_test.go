@@ -25,8 +25,8 @@ import (
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
 
-	"gvisor.dev/gvisor/pkg/test/testutil"
-	"gvisor.dev/gvisor/tools/nvidia_driver_differ/parser"
+	"github.com/wilinz/gvisor/pkg/test/testutil"
+	"github.com/wilinz/gvisor/tools/nvidia_driver_differ/parser"
 )
 
 // TestParser runs driver_ast_parser on test_struct.cc and compares the output to the expected json.

@@ -19,7 +19,7 @@ import (
 	"fmt"
 
 	"golang.org/x/sys/unix"
-	"gvisor.dev/gvisor/pkg/sync"
+	"github.com/wilinz/gvisor/pkg/sync"
 )
 
 // A Queue provides the ability to concurrently execute multiple read/write

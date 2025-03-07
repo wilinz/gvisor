@@ -30,7 +30,7 @@ import (
 	"testing"
 	"unsafe"
 
-	"gvisor.dev/gvisor/pkg/rand"
+	"github.com/wilinz/gvisor/pkg/rand"
 )
 
 // RandomizeValue assigns random value(s) to an arbitrary type. This is intended

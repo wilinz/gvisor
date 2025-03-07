@@ -23,9 +23,9 @@ import (
 	"log"
 	"os"
 
-	"gvisor.dev/gvisor/runsc/flag"
-	bq "gvisor.dev/gvisor/tools/bigquery"
-	"gvisor.dev/gvisor/tools/parsers"
+	"github.com/wilinz/gvisor/runsc/flag"
+	bq "github.com/wilinz/gvisor/tools/bigquery"
+	"github.com/wilinz/gvisor/tools/parsers"
 )
 
 const (

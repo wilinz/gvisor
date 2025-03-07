@@ -16,9 +16,9 @@ package kvm
 
 import (
 	"golang.org/x/sys/unix"
-	"gvisor.dev/gvisor/pkg/hostsyscall"
-	"gvisor.dev/gvisor/pkg/ring0"
-	"gvisor.dev/gvisor/pkg/sentry/arch"
+	"github.com/wilinz/gvisor/pkg/hostsyscall"
+	"github.com/wilinz/gvisor/pkg/ring0"
+	"github.com/wilinz/gvisor/pkg/sentry/arch"
 )
 
 // sighandler is the signal entry point.

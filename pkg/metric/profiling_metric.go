@@ -28,10 +28,10 @@ import (
 	"time"
 
 	"google.golang.org/protobuf/encoding/protojson"
-	"gvisor.dev/gvisor/pkg/atomicbitops"
-	"gvisor.dev/gvisor/pkg/log"
-	"gvisor.dev/gvisor/pkg/prometheus"
-	"gvisor.dev/gvisor/pkg/sync"
+	"github.com/wilinz/gvisor/pkg/atomicbitops"
+	"github.com/wilinz/gvisor/pkg/log"
+	"github.com/wilinz/gvisor/pkg/prometheus"
+	"github.com/wilinz/gvisor/pkg/sync"
 )
 
 const (

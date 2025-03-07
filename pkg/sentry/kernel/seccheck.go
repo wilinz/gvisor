@@ -15,8 +15,8 @@
 package kernel
 
 import (
-	"gvisor.dev/gvisor/pkg/sentry/seccheck"
-	pb "gvisor.dev/gvisor/pkg/sentry/seccheck/points/points_go_proto"
+	"github.com/wilinz/gvisor/pkg/sentry/seccheck"
+	pb "github.com/wilinz/gvisor/pkg/sentry/seccheck/points/points_go_proto"
 )
 
 func getTaskCurrentWorkingDirectory(t *Task) string {

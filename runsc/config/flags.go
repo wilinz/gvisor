@@ -25,10 +25,10 @@ import (
 	"strings"
 	"text/template"
 
-	"gvisor.dev/gvisor/pkg/log"
-	"gvisor.dev/gvisor/pkg/refs"
-	"gvisor.dev/gvisor/pkg/sentry/watchdog"
-	"gvisor.dev/gvisor/runsc/flag"
+	"github.com/wilinz/gvisor/pkg/log"
+	"github.com/wilinz/gvisor/pkg/refs"
+	"github.com/wilinz/gvisor/pkg/sentry/watchdog"
+	"github.com/wilinz/gvisor/runsc/flag"
 )
 
 // Reused flag names.

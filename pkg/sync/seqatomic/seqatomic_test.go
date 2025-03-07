@@ -19,7 +19,7 @@ import (
 	"testing"
 	"time"
 
-	"gvisor.dev/gvisor/pkg/sync"
+	"github.com/wilinz/gvisor/pkg/sync"
 )
 
 func TestSeqAtomicLoadUncontended(t *testing.T) {

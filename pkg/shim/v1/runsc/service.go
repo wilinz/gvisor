@@ -50,15 +50,15 @@ import (
 	specs "github.com/opencontainers/runtime-spec/specs-go"
 	"github.com/sirupsen/logrus"
 	"golang.org/x/sys/unix"
-	"gvisor.dev/gvisor/pkg/cleanup"
-	"gvisor.dev/gvisor/pkg/shim/v1/runtimeoptions/v14"
+	"github.com/wilinz/gvisor/pkg/cleanup"
+	"github.com/wilinz/gvisor/pkg/shim/v1/runtimeoptions/v14"
 
-	"gvisor.dev/gvisor/pkg/shim/v1/extension"
-	"gvisor.dev/gvisor/pkg/shim/v1/proc"
-	"gvisor.dev/gvisor/pkg/shim/v1/runsccmd"
-	"gvisor.dev/gvisor/pkg/shim/v1/runtimeoptions"
-	"gvisor.dev/gvisor/pkg/shim/v1/utils"
-	"gvisor.dev/gvisor/runsc/specutils"
+	"github.com/wilinz/gvisor/pkg/shim/v1/extension"
+	"github.com/wilinz/gvisor/pkg/shim/v1/proc"
+	"github.com/wilinz/gvisor/pkg/shim/v1/runsccmd"
+	"github.com/wilinz/gvisor/pkg/shim/v1/runtimeoptions"
+	"github.com/wilinz/gvisor/pkg/shim/v1/utils"
+	"github.com/wilinz/gvisor/runsc/specutils"
 )
 
 var (

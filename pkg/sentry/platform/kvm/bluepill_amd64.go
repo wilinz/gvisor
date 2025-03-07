@@ -18,8 +18,8 @@
 package kvm
 
 import (
-	"gvisor.dev/gvisor/pkg/ring0"
-	"gvisor.dev/gvisor/pkg/sentry/arch"
+	"github.com/wilinz/gvisor/pkg/ring0"
+	"github.com/wilinz/gvisor/pkg/sentry/arch"
 )
 
 func bluepillArchVCPU(context *arch.SignalContext64) *vCPU {

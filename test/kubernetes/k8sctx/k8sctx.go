@@ -23,7 +23,7 @@ import (
 	"context"
 	"testing"
 
-	"gvisor.dev/gvisor/test/kubernetes/testcluster"
+	"github.com/wilinz/gvisor/test/kubernetes/testcluster"
 )
 
 // KubernetesContext represents the Kubernetes execution context.

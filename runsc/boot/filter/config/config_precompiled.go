@@ -18,14 +18,14 @@ import (
 	"fmt"
 
 	"golang.org/x/sync/errgroup"
-	"gvisor.dev/gvisor/pkg/abi/linux"
-	"gvisor.dev/gvisor/pkg/seccomp"
-	"gvisor.dev/gvisor/pkg/seccomp/precompiledseccomp"
-	"gvisor.dev/gvisor/pkg/sentry/devices/nvproxy/nvconf"
-	"gvisor.dev/gvisor/pkg/sentry/platform"
+	"github.com/wilinz/gvisor/pkg/abi/linux"
+	"github.com/wilinz/gvisor/pkg/seccomp"
+	"github.com/wilinz/gvisor/pkg/seccomp/precompiledseccomp"
+	"github.com/wilinz/gvisor/pkg/sentry/devices/nvproxy/nvconf"
+	"github.com/wilinz/gvisor/pkg/sentry/platform"
 
 	// Import platforms that we need to precompile filters for.
-	_ "gvisor.dev/gvisor/pkg/sentry/platform/platforms"
+	_ "github.com/wilinz/gvisor/pkg/sentry/platform/platforms"
 )
 
 // Variable names used in precompiled filters.

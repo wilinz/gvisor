@@ -20,11 +20,11 @@ import (
 	"fmt"
 	"os"
 
-	"gvisor.dev/gvisor/tools/nvidia_driver_differ/parser"
+	"github.com/wilinz/gvisor/tools/nvidia_driver_differ/parser"
 
-	"gvisor.dev/gvisor/pkg/log"
-	"gvisor.dev/gvisor/pkg/sentry/devices/nvproxy"
-	"gvisor.dev/gvisor/pkg/sentry/devices/nvproxy/nvconf"
+	"github.com/wilinz/gvisor/pkg/log"
+	"github.com/wilinz/gvisor/pkg/sentry/devices/nvproxy"
+	"github.com/wilinz/gvisor/pkg/sentry/devices/nvproxy/nvconf"
 
 	_ "embed" // Necessary to use go:embed.
 )

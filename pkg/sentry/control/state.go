@@ -18,11 +18,11 @@ import (
 	"errors"
 	"fmt"
 
-	"gvisor.dev/gvisor/pkg/sentry/kernel"
-	"gvisor.dev/gvisor/pkg/sentry/pgalloc"
-	"gvisor.dev/gvisor/pkg/sentry/state"
-	"gvisor.dev/gvisor/pkg/sentry/watchdog"
-	"gvisor.dev/gvisor/pkg/urpc"
+	"github.com/wilinz/gvisor/pkg/sentry/kernel"
+	"github.com/wilinz/gvisor/pkg/sentry/pgalloc"
+	"github.com/wilinz/gvisor/pkg/sentry/state"
+	"github.com/wilinz/gvisor/pkg/sentry/watchdog"
+	"github.com/wilinz/gvisor/pkg/urpc"
 )
 
 // ErrInvalidFiles is returned when the urpc call to Save does not include an

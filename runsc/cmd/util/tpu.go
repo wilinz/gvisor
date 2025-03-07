@@ -23,7 +23,7 @@ import (
 	"strconv"
 	"strings"
 
-	"gvisor.dev/gvisor/pkg/abi/tpu"
+	"github.com/wilinz/gvisor/pkg/abi/tpu"
 )
 
 const (

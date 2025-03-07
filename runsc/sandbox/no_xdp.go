@@ -22,8 +22,8 @@ import (
 	"net"
 	"os"
 
-	"gvisor.dev/gvisor/pkg/urpc"
-	"gvisor.dev/gvisor/runsc/config"
+	"github.com/wilinz/gvisor/pkg/urpc"
+	"github.com/wilinz/gvisor/runsc/config"
 )
 
 // This file holds placeholders for XDP support, which is not compiled in by default.

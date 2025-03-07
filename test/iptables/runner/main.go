@@ -22,7 +22,7 @@ import (
 	"log"
 	"net"
 
-	"gvisor.dev/gvisor/test/iptables"
+	"github.com/wilinz/gvisor/test/iptables"
 )
 
 var (

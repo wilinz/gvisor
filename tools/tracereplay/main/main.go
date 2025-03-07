@@ -23,8 +23,8 @@ import (
 	"os/signal"
 
 	"github.com/google/subcommands"
-	"gvisor.dev/gvisor/runsc/flag"
-	"gvisor.dev/gvisor/tools/tracereplay"
+	"github.com/wilinz/gvisor/runsc/flag"
+	"github.com/wilinz/gvisor/tools/tracereplay"
 )
 
 func main() {

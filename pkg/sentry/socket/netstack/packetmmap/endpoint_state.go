@@ -18,7 +18,7 @@ import (
 	"context"
 	"fmt"
 
-	"gvisor.dev/gvisor/pkg/sentry/pgalloc"
+	"github.com/wilinz/gvisor/pkg/sentry/pgalloc"
 )
 
 // afterLoad is invoked by stateify.

@@ -22,12 +22,12 @@ import (
 	"testing"
 	"time"
 
-	"gvisor.dev/gvisor/test/gpu/stablediffusion"
-	k8s "gvisor.dev/gvisor/test/kubernetes"
-	"gvisor.dev/gvisor/test/kubernetes/benchmarks/profiling"
-	"gvisor.dev/gvisor/test/kubernetes/benchmetric"
-	"gvisor.dev/gvisor/test/kubernetes/k8sctx"
-	"gvisor.dev/gvisor/test/kubernetes/testcluster"
+	"github.com/wilinz/gvisor/test/gpu/stablediffusion"
+	k8s "github.com/wilinz/gvisor/test/kubernetes"
+	"github.com/wilinz/gvisor/test/kubernetes/benchmarks/profiling"
+	"github.com/wilinz/gvisor/test/kubernetes/benchmetric"
+	"github.com/wilinz/gvisor/test/kubernetes/k8sctx"
+	"github.com/wilinz/gvisor/test/kubernetes/testcluster"
 	v13 "k8s.io/api/core/v1"
 	"k8s.io/apimachinery/pkg/apis/meta/v1"
 )

@@ -22,8 +22,8 @@ import (
 	"reflect"
 	"strings"
 
-	"gvisor.dev/gvisor/pkg/goid"
-	"gvisor.dev/gvisor/pkg/log"
+	"github.com/wilinz/gvisor/pkg/goid"
+	"github.com/wilinz/gvisor/pkg/log"
 )
 
 // NewMutexClass allocates a new mutex class.

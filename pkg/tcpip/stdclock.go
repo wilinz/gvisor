@@ -28,8 +28,8 @@ type stdClock struct {
 	// This value is used to calculate the monotonic time from the time package.
 	// As per https://golang.org/pkg/time/#hdr-Monotonic_Clocks,
 	//
-	//   Operating systems provide both a “wall clock,” which is subject to
-	//   changes for clock synchronization, and a “monotonic clock,” which is not.
+	//   Operating systems provide both a “wall clock,�?which is subject to
+	//   changes for clock synchronization, and a “monotonic clock,�?which is not.
 	//   The general rule is that the wall clock is for telling time and the
 	//   monotonic clock is for measuring time. Rather than split the API, in this
 	//   package the Time returned by time.Now contains both a wall clock reading

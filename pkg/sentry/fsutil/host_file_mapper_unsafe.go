@@ -17,7 +17,7 @@ package fsutil
 import (
 	"unsafe"
 
-	"gvisor.dev/gvisor/pkg/safemem"
+	"github.com/wilinz/gvisor/pkg/safemem"
 )
 
 func unsafeBlockFromMapping(addr uintptr, size int) safemem.Block {

@@ -22,8 +22,8 @@ import (
 	"os"
 	"time"
 
-	"gvisor.dev/gvisor/pkg/log"
-	"gvisor.dev/gvisor/runsc/container"
+	"github.com/wilinz/gvisor/pkg/log"
+	"github.com/wilinz/gvisor/runsc/container"
 )
 
 // verifyLoopInterval is the interval at which we check whether there are any sandboxes we need

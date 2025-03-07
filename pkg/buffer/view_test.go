@@ -19,7 +19,7 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
-	"gvisor.dev/gvisor/pkg/rand"
+	"github.com/wilinz/gvisor/pkg/rand"
 )
 
 func TestNewView(t *testing.T) {

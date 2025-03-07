@@ -19,7 +19,7 @@ import (
 	"strings"
 	"testing"
 
-	"gvisor.dev/gvisor/pkg/test/testutil"
+	"github.com/wilinz/gvisor/pkg/test/testutil"
 )
 
 // TestDumpFilter tests that the `dumpfilter` program works.

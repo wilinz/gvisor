@@ -21,8 +21,8 @@ import (
 	"testing"
 
 	"golang.org/x/sys/unix"
-	"gvisor.dev/gvisor/pkg/bitmap"
-	"gvisor.dev/gvisor/pkg/rand"
+	"github.com/wilinz/gvisor/pkg/bitmap"
+	"github.com/wilinz/gvisor/pkg/rand"
 )
 
 func TestRead(t *testing.T) {

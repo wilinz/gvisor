@@ -19,7 +19,7 @@ import (
 	"reflect"
 	"testing"
 
-	"gvisor.dev/gvisor/pkg/abi/linux"
+	"github.com/wilinz/gvisor/pkg/abi/linux"
 )
 
 func validate(p *ProgramBuilder, expected []Instruction) error {

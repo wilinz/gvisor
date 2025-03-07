@@ -39,8 +39,8 @@ import (
 
 	"github.com/docker/docker/api/types/mount"
 	"golang.org/x/sys/unix"
-	"gvisor.dev/gvisor/pkg/test/dockerutil"
-	"gvisor.dev/gvisor/pkg/test/testutil"
+	"github.com/wilinz/gvisor/pkg/test/dockerutil"
+	"github.com/wilinz/gvisor/pkg/test/testutil"
 )
 
 const (

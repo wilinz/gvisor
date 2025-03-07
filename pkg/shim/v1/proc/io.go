@@ -26,7 +26,7 @@ import (
 	runc "github.com/containerd/go-runc"
 	"github.com/containerd/log"
 	"golang.org/x/sys/unix"
-	"gvisor.dev/gvisor/pkg/atomicbitops"
+	"github.com/wilinz/gvisor/pkg/atomicbitops"
 )
 
 // TODO(random-liu): This file can be a util.

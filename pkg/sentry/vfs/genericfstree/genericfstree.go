@@ -28,8 +28,8 @@
 package genericfstree
 
 import (
-	"gvisor.dev/gvisor/pkg/fspath"
-	"gvisor.dev/gvisor/pkg/sentry/vfs"
+	"github.com/wilinz/gvisor/pkg/fspath"
+	"github.com/wilinz/gvisor/pkg/sentry/vfs"
 )
 
 // We need to define an interface instead of using atomic.Pointer because

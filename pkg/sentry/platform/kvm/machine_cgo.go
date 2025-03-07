@@ -18,7 +18,7 @@
 package kvm
 
 import (
-	"gvisor.dev/gvisor/pkg/ring0"
+	"github.com/wilinz/gvisor/pkg/ring0"
 )
 
 func init() {

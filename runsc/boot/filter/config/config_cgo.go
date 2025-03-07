@@ -16,7 +16,7 @@ package config
 
 import (
 	"golang.org/x/sys/unix"
-	"gvisor.dev/gvisor/pkg/seccomp"
+	"github.com/wilinz/gvisor/pkg/seccomp"
 )
 
 func cgoFilters() seccomp.SyscallRules {

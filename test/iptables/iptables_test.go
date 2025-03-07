@@ -23,9 +23,9 @@ import (
 	"sync"
 	"testing"
 
-	"gvisor.dev/gvisor/pkg/log"
-	"gvisor.dev/gvisor/pkg/test/dockerutil"
-	"gvisor.dev/gvisor/pkg/test/testutil"
+	"github.com/wilinz/gvisor/pkg/log"
+	"github.com/wilinz/gvisor/pkg/test/dockerutil"
+	"github.com/wilinz/gvisor/pkg/test/testutil"
 )
 
 // singleTest runs a TestCase. Each test follows a pattern:

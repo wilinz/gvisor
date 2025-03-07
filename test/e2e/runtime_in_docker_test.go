@@ -23,8 +23,8 @@ import (
 	"testing"
 
 	"github.com/docker/docker/api/types/mount"
-	"gvisor.dev/gvisor/pkg/test/dockerutil"
-	"gvisor.dev/gvisor/pkg/test/testutil"
+	"github.com/wilinz/gvisor/pkg/test/dockerutil"
+	"github.com/wilinz/gvisor/pkg/test/testutil"
 )
 
 // testVariant is a variant of the gVisor in Docker test.

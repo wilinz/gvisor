@@ -15,8 +15,8 @@
 package strace
 
 import (
-	"gvisor.dev/gvisor/pkg/abi"
-	"gvisor.dev/gvisor/pkg/abi/linux"
+	"github.com/wilinz/gvisor/pkg/abi"
+	"github.com/wilinz/gvisor/pkg/abi/linux"
 )
 
 // ProtectionFlagSet represents the protection to mmap(2).

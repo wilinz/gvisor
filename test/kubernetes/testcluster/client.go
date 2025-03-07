@@ -21,8 +21,8 @@ import (
 	"io"
 	"time"
 
-	"gvisor.dev/gvisor/pkg/log"
-	"gvisor.dev/gvisor/pkg/rand"
+	"github.com/wilinz/gvisor/pkg/log"
+	"github.com/wilinz/gvisor/pkg/rand"
 	"k8s.io/client-go/kubernetes"
 )
 

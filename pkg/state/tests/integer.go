@@ -17,7 +17,7 @@ package tests
 import (
 	"context"
 
-	"gvisor.dev/gvisor/pkg/state"
+	"github.com/wilinz/gvisor/pkg/state"
 )
 
 // +stateify type

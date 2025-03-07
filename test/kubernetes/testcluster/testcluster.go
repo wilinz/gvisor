@@ -25,9 +25,9 @@ import (
 	"time"
 
 	"golang.org/x/sync/errgroup"
-	"gvisor.dev/gvisor/pkg/log"
-	"gvisor.dev/gvisor/pkg/sync"
-	testpb "gvisor.dev/gvisor/test/kubernetes/test_range_config_go_proto"
+	"github.com/wilinz/gvisor/pkg/log"
+	"github.com/wilinz/gvisor/pkg/sync"
+	testpb "github.com/wilinz/gvisor/test/kubernetes/test_range_config_go_proto"
 	appsv1 "k8s.io/api/apps/v1"
 	v13 "k8s.io/api/core/v1"
 	"k8s.io/apimachinery/pkg/apis/meta/v1"

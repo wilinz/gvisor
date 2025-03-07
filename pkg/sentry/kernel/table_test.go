@@ -17,8 +17,8 @@ package kernel
 import (
 	"testing"
 
-	"gvisor.dev/gvisor/pkg/abi"
-	"gvisor.dev/gvisor/pkg/sentry/arch"
+	"github.com/wilinz/gvisor/pkg/abi"
+	"github.com/wilinz/gvisor/pkg/sentry/arch"
 )
 
 const (

@@ -17,7 +17,7 @@ package waiter
 import (
 	"testing"
 
-	"gvisor.dev/gvisor/pkg/atomicbitops"
+	"github.com/wilinz/gvisor/pkg/atomicbitops"
 )
 
 func TestEmptyQueue(t *testing.T) {

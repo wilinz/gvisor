@@ -21,8 +21,8 @@ import (
 	"testing"
 	"time"
 
-	"gvisor.dev/gvisor/pkg/test/dockerutil"
-	"gvisor.dev/gvisor/test/benchmarks/harness"
+	"github.com/wilinz/gvisor/pkg/test/dockerutil"
+	"github.com/wilinz/gvisor/test/benchmarks/harness"
 )
 
 // ServerArgs wraps args for startServers and runServerWorkload.

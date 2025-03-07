@@ -34,9 +34,9 @@ import (
 
 	"github.com/google/subcommands"
 	"github.com/kr/pty"
-	gvisorrand "gvisor.dev/gvisor/pkg/rand"
-	"gvisor.dev/gvisor/pkg/test/testutil"
-	"gvisor.dev/gvisor/runsc/flag"
+	gvisorrand "github.com/wilinz/gvisor/pkg/rand"
+	"github.com/wilinz/gvisor/pkg/test/testutil"
+	"github.com/wilinz/gvisor/runsc/flag"
 )
 
 func main() {

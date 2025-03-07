@@ -23,14 +23,14 @@ import (
 	"math/rand"
 
 	"golang.org/x/sys/unix"
-	"gvisor.dev/gvisor/pkg/context"
-	"gvisor.dev/gvisor/pkg/hostarch"
-	"gvisor.dev/gvisor/pkg/marshal/primitive"
-	"gvisor.dev/gvisor/pkg/sentry/arch"
-	"gvisor.dev/gvisor/pkg/sentry/kernel"
-	"gvisor.dev/gvisor/pkg/sentry/memmap"
-	"gvisor.dev/gvisor/pkg/sync"
-	"gvisor.dev/gvisor/pkg/usermem"
+	"github.com/wilinz/gvisor/pkg/context"
+	"github.com/wilinz/gvisor/pkg/hostarch"
+	"github.com/wilinz/gvisor/pkg/marshal/primitive"
+	"github.com/wilinz/gvisor/pkg/sentry/arch"
+	"github.com/wilinz/gvisor/pkg/sentry/kernel"
+	"github.com/wilinz/gvisor/pkg/sentry/memmap"
+	"github.com/wilinz/gvisor/pkg/sync"
+	"github.com/wilinz/gvisor/pkg/usermem"
 )
 
 // trapNR is the maximum number of traps what can fit in the trap table.
@@ -241,7 +241,7 @@ func (s *State) PatchSyscall(ctx context.Context, ac *arch.Context64, mm memoryM
 		// Another subtle aspect is the second step is done using a
 		// regular non-atomic write which means a thread decoding the
 		// mov instruction could read a garbage value of the immediate
-		// operand for the ‘mov sysyno, %eax” instruction. But it
+		// operand for the ‘mov sysyno, %eax�?instruction. But it
 		// doesn’t matter since we don’t change the first byte which is
 		// the one that contains the opcode. Also since the thread will
 		// fault on the 0x6 right after and will be restarted with the

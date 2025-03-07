@@ -29,8 +29,8 @@ import (
 	"testing"
 
 	"google.golang.org/protobuf/encoding/prototext"
-	"gvisor.dev/gvisor/pkg/sentry/devices/nvproxy"
-	cospb "gvisor.dev/gvisor/test/gpu/gpu_driver_versions_go_proto"
+	"github.com/wilinz/gvisor/pkg/sentry/devices/nvproxy"
+	cospb "github.com/wilinz/gvisor/test/gpu/gpu_driver_versions_go_proto"
 )
 
 var (

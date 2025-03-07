@@ -21,7 +21,7 @@ import (
 	"testing"
 
 	"golang.org/x/sys/unix"
-	"gvisor.dev/gvisor/pkg/test/testutil"
+	"github.com/wilinz/gvisor/pkg/test/testutil"
 )
 
 func TestSafeMount(t *testing.T) {

@@ -19,8 +19,8 @@ import (
 	"math"
 	"time"
 
-	"gvisor.dev/gvisor/pkg/atomicbitops"
-	"gvisor.dev/gvisor/pkg/sync"
+	"github.com/wilinz/gvisor/pkg/atomicbitops"
+	"github.com/wilinz/gvisor/pkg/sync"
 )
 
 // SyntheticTimer implements Timer for SyntheticClocks.

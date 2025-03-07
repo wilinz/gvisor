@@ -19,10 +19,10 @@
 package stack
 
 import (
-	"gvisor.dev/gvisor/pkg/errors/linuxerr"
-	"gvisor.dev/gvisor/pkg/sentry/inet"
-	"gvisor.dev/gvisor/pkg/sentry/socket/plugin"
-	"gvisor.dev/gvisor/pkg/sentry/socket/plugin/cgo"
+	"github.com/wilinz/gvisor/pkg/errors/linuxerr"
+	"github.com/wilinz/gvisor/pkg/sentry/inet"
+	"github.com/wilinz/gvisor/pkg/sentry/socket/plugin"
+	"github.com/wilinz/gvisor/pkg/sentry/socket/plugin/cgo"
 )
 
 // Stack is a struct that interacts with third-party network stack.

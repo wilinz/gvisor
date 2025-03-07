@@ -21,8 +21,8 @@ import (
 	"os"
 
 	"github.com/google/subcommands"
-	"gvisor.dev/gvisor/runsc/flag"
-	"gvisor.dev/gvisor/tools/gvisor_k8s_tool/cmd/install"
+	"github.com/wilinz/gvisor/runsc/flag"
+	"github.com/wilinz/gvisor/tools/gvisor_k8s_tool/cmd/install"
 )
 
 func registerCommands() {

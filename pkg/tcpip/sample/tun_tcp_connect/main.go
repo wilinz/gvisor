@@ -49,16 +49,16 @@ import (
 	"os"
 	"strconv"
 
-	"gvisor.dev/gvisor/pkg/rawfile"
-	"gvisor.dev/gvisor/pkg/tcpip"
-	"gvisor.dev/gvisor/pkg/tcpip/header"
-	"gvisor.dev/gvisor/pkg/tcpip/link/fdbased"
-	"gvisor.dev/gvisor/pkg/tcpip/link/sniffer"
-	"gvisor.dev/gvisor/pkg/tcpip/link/tun"
-	"gvisor.dev/gvisor/pkg/tcpip/network/ipv4"
-	"gvisor.dev/gvisor/pkg/tcpip/stack"
-	"gvisor.dev/gvisor/pkg/tcpip/transport/tcp"
-	"gvisor.dev/gvisor/pkg/waiter"
+	"github.com/wilinz/gvisor/pkg/rawfile"
+	"github.com/wilinz/gvisor/pkg/tcpip"
+	"github.com/wilinz/gvisor/pkg/tcpip/header"
+	"github.com/wilinz/gvisor/pkg/tcpip/link/fdbased"
+	"github.com/wilinz/gvisor/pkg/tcpip/link/sniffer"
+	"github.com/wilinz/gvisor/pkg/tcpip/link/tun"
+	"github.com/wilinz/gvisor/pkg/tcpip/network/ipv4"
+	"github.com/wilinz/gvisor/pkg/tcpip/stack"
+	"github.com/wilinz/gvisor/pkg/tcpip/transport/tcp"
+	"github.com/wilinz/gvisor/pkg/waiter"
 )
 
 // writer reads from standard input and writes to the endpoint until standard

@@ -75,7 +75,7 @@ import (
 	"golang.org/x/tools/go/analysis"
 	"golang.org/x/tools/go/analysis/passes/buildssa"
 	"golang.org/x/tools/go/ssa"
-	"gvisor.dev/gvisor/tools/nogo/flags"
+	"github.com/wilinz/gvisor/tools/nogo/flags"
 )
 
 const (
@@ -336,9 +336,9 @@ func (es *Escapes) Reportf(pass *analysis.Pass) {
 			fmt.Fprintf(&b, "(%d omitted) ", es.Omitted[r])
 		}
 		for _, cs := range es.CallSites[r][1:] {
-			fmt.Fprintf(&b, "â†’ %s ", cs.Resolved.String())
+			fmt.Fprintf(&b, "â†?%s ", cs.Resolved.String())
 		}
-		fmt.Fprintf(&b, "â†’ %s", es.Details[r])
+		fmt.Fprintf(&b, "â†?%s", es.Details[r])
 		pass.Reportf(es.CallSites[r][0].LocalPos, "%s", b.String())
 	}
 }

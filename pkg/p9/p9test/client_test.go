@@ -27,10 +27,10 @@ import (
 
 	"github.com/golang/mock/gomock"
 	"golang.org/x/sys/unix"
-	"gvisor.dev/gvisor/pkg/fd"
-	"gvisor.dev/gvisor/pkg/p9"
-	gvisorrand "gvisor.dev/gvisor/pkg/rand"
-	"gvisor.dev/gvisor/pkg/sync"
+	"github.com/wilinz/gvisor/pkg/fd"
+	"github.com/wilinz/gvisor/pkg/p9"
+	gvisorrand "github.com/wilinz/gvisor/pkg/rand"
+	"github.com/wilinz/gvisor/pkg/sync"
 )
 
 func TestPanic(t *testing.T) {
